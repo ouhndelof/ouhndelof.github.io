@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Braud toastbar</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400%7CJosefin+Sans:700%7COpen+Sans+Condensed:700%7CSorts+Mill+Goudy%7CZilla+Slab:600,500i">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script>
+	  function toggleNav() {
+		  document.getElementById("myNav").classList.toggle('overlay-opened');
+		  document.getElementById("nav-toggle").classList.toggle('opened');
+		  document.getElementById("nav-expand").classList.toggle('invisible');
+		  document.getElementById("nav-close").classList.toggle('invisible');
+		  document.body.classList.toggle("noscroll");
+	  }
+	</script>
+	
+	<div id="myNav" class="overlay">
+	  <div class="overlay-content">
+		<a href="meny.html">Meny</a>
+		<a href="#">Åpningstider</a>
+		<a href="#">Kontakt</a>
+	  </div>
+	</div>
+
+	<div class="grid">
+	  <div id="header" class="element">
+		<div id="logo">
+		  <a href="braud_forside.html"><img alt="Bruad toastbar homepage" src="braud2/themes/hugo-hero-theme/static/images/logo.svg"></a>
+		</div>
+		<div id="menu-mobile">
+		  <button id="nav-toggle" class="nav-toggle" aria-expanded="false" onclick="toggleNav()">
+			<span id="nav-expand" aria-hidden="true">☰</span>
+			<span id="nav-close" class="invisible" aria-hidden="true">✕</span>
+		  </button>
+		</div>
+		<div id="main-menu" class="main-menu">
+		  <ul>
+			<li>
+			  <a class="menu-item" href="meny.html">Meny</a>
+			</li>
+			<li>
+			  <a class="menu-item" href="#">Åpningstider</a>
+			</li>
+			<li>
+			  <a class="menu-item" href="#">Kontakt</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	  <h1 id="menuheader">Meny</h1>
+	  <div class="category">
+		<h2>Åpen toast</h2>
+		<div class="food-menu">
+		  <div class="menuitem2">
+			<div class="product2">Avokado &amp; posjert egg&nbsp;&nbsp;|&nbsp;&nbsp;119,-</div>
+			<div class="description">limemajonesdressing</div>
+			<div class="allergens2">Egg, Me, B, Ha</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Eggerøre &amp; bacon&nbsp;&nbsp;|&nbsp;&nbsp;123,-</div>
+			<div class="description">chiliaiolidressing</div>
+			<div class="allergens2">Egg, Me, B, Ha</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Karamelisert løk &amp; sjampinjong&nbsp;&nbsp;|&nbsp;&nbsp;105,-</div>
+			<div class="description">brie, tilsiter &amp; mangosennepsdressing </div>
+			<div class="allergens2">B, Fi, Sen, Me, Ha</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Taleggio, blåmuggost &amp; brie&nbsp;&nbsp;|&nbsp;&nbsp;135,-</div>
+			<div class="description">hjemmelaget eplemos &amp; chiliaiolidressing</div>
+			<div class="allergens2">Me, B, Ha</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="category">
+		<h2>Toast</h2>
+		<div class="food-menu">
+		  <div class="menuitem2">
+			<div class="product2">Kylling &amp; pancetta&nbsp;&nbsp;|&nbsp;&nbsp;109,-</div>
+			<div class="description">soltørkede tomater, cheddar, mozzarella, pesto rosso &amp; dressing av soltørkede tomater</div>
+			<div class="allergens2">Me, B, M, Su, Ha</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Tilsiter, mozzarella &amp; cheddar&nbsp;&nbsp;|&nbsp;&nbsp;99,-</div>
+			<div class="description">buoncotto, sennep &amp; mangosennepsdressing</div>
+			<div class="allergens2">Sen, Me, B, Ha</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Taleggio, brie &amp; blåmuggost&nbsp;&nbsp;|&nbsp;&nbsp;135,-</div>
+			<div class="description">Chiliaiolidressing</div>
+			<div class="allergens2">Me, B, Ha</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Comte, cheddar &amp; buoncotto&nbsp;&nbsp;|&nbsp;&nbsp;109,-</div>
+			<div class="description">paprika, sennep, jalapenos &amp; dressing av soltørkede tomater</div>
+			<div class="allergens2">Me, Ha, B, Sen, Su</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Oscars toast for kule kidz&nbsp;&nbsp;|&nbsp;&nbsp;50,-</div>
+			<div class="description">mozzarella, cheddar, skinke &amp; limemajonesdressing</div>
+			<div class="allergens2">Me, Ha, B</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="category">
+		<h2>Dressing</h2>
+		<div class="food-menu nodescription">
+		  <div class="menuitem2">
+			<div class="product2">Chiliaioli&nbsp;&nbsp;|&nbsp;&nbsp;15,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Soltørkede tomater&nbsp;&nbsp;|&nbsp;&nbsp;15,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Mangosennep&nbsp;&nbsp;|&nbsp;&nbsp;15,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Limemajones&nbsp;&nbsp;|&nbsp;&nbsp;15,-</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="category">
+  		<h2>Frokostmeny (serveres hele dagen)</h2>
+		<div class="food-menu">
+		  <div class="menuitem2">
+			<div class="product2">Avokado med posjert egg&nbsp;&nbsp;|&nbsp;&nbsp;153,-</div>
+			<div class="description">yoghurt, rørte bær, granola &amp; limemajonesdressing</div>
+			<div class="allergens2">Egg, Me, B, Ha, Hv, kan inneholde spor av nøtter</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Eggerøre med bacon&nbsp;&nbsp;|&nbsp;&nbsp;159,-</div>
+			<div class="description">yoghurt, rørte bær, granola &amp; chiliaiolidressing</div>
+			<div class="allergens2">Egg, Me, B, Ha, Hv, kan inneholde spor av nøtter</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Yoghurt med rørte bær og granola&nbsp;&nbsp;|&nbsp;&nbsp;47,-</div>
+			<div class="description"><span class="italic">Velg mellom</span> jordbær, eple &amp; blåbær</div>
+			<div class="allergens2">Me, B, Ha, Hv, kan inneholde spor av nøtter</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="category">
+		<h2>Kaffe/te/sjokolade</h2>
+		<div class="food-menu nodescription">
+		  <div class="menuitem2">
+			<div class="product2">Cappuccino&nbsp;&nbsp;|&nbsp;&nbsp;<span class="italic">e:</span>36,-&nbsp;<span class="italic">d:</span>39,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Kaffe latte&nbsp;&nbsp;|&nbsp;&nbsp;<span class="italic">e:</span>36,-&nbsp;<span class="italic">d:</span>39,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Espresso&nbsp;&nbsp;|&nbsp;&nbsp;<span class="italic">e:</span>29,-&nbsp;<span class="italic">d:</span>35,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Cortado&nbsp;&nbsp;|&nbsp;&nbsp;<span class="italic">e:</span>36,-&nbsp;<span class="italic">d:</span>39,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Americano&nbsp;&nbsp;|&nbsp;&nbsp;<span class="italic">e:</span>31,-&nbsp;<span class="italic">d:</span>35,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Chai latte&nbsp;&nbsp;|&nbsp;&nbsp;42,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Varm sjokolade&nbsp;&nbsp;|&nbsp;&nbsp;42,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Te&nbsp;&nbsp;|&nbsp;&nbsp;33,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Mocca&nbsp;&nbsp;|&nbsp;&nbsp;<span class="italic">e:</span>36,-&nbsp;<span class="italic">d:</span>39,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Kaffe&nbsp;&nbsp;|&nbsp;&nbsp;33,-</div>
+		  </div>	
+		</div>
+	  </div>
+
+	  <div class="category">
+		<h2>Mineralvann</h2>
+		<div class="food-menu nodescription">
+		  <div class="menuitem2">
+			<div class="product2">Cola&nbsp;&nbsp;|&nbsp;&nbsp;41,-</div>
+		  </div>
+		  <div class="menuitem">
+			<div class="product2">Cola uten sukker&nbsp;&nbsp;|&nbsp;&nbsp;41,-</div>
+		  </div>
+		  <div class="menuitem">
+			<div class="product2">Glitre (vann med kullsyre)&nbsp;&nbsp;|&nbsp;&nbsp;41,-</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="category">
+		<h2>Alkoholfritt øl</h2>
+		<div class="food-menu nodescription">
+		  <div class="menuitem2">
+			<div class="product2">Aass UTEN&nbsp;&nbsp;|&nbsp;&nbsp;46,-</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="category">
+		<h2>Ferskpresset juice</h2>
+		<div class="food-menu nodescription">
+		  <div class="menuitem2">
+			<div class="product2">Gulrot&nbsp;&nbsp;|&nbsp;&nbsp;47,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Mango/gulrot&nbsp;&nbsp;|&nbsp;&nbsp;47,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Lemonade&nbsp;&nbsp;|&nbsp;&nbsp;47,-</div>
+		  </div>
+		  <div class="menuitem2">
+			<div class="product2">Appelsin&nbsp;&nbsp;|&nbsp;&nbsp;47,-</div>
+		  </div>
+		</div>
+	  </div>	  
+	</div>
+	
+	<footer>
+	  <p>2021</p>
+	</footer>
+  </body>
+</html> 

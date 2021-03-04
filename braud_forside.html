@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Braud toastbar</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Xanh+Mono:400%7CSource+Sans+Pro:400%7CJosefin+Sans:700%7COpen+Sans+Condensed:700%7CSorts+Mill+Goudy%7CZilla+Slab:600,500i">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script>
+	  function toggleNav() {
+		  document.getElementById("myNav").classList.toggle('overlay-opened');
+		  document.getElementById("nav-toggle").classList.toggle('opened');
+		  document.getElementById("nav-expand").classList.toggle('invisible');
+		  document.getElementById("nav-close").classList.toggle('invisible');
+		  document.body.classList.toggle("noscroll");
+	  }
+	</script>
+	
+	<div id="myNav" class="overlay">
+	  <div class="overlay-content">
+		<a href="meny.html">Meny</a>
+		<a href="#">Åpningstider</a>
+		<a href="#">Kontakt</a>
+	  </div>
+	</div>
+	
+	<div class="grid">
+	  <div id="header" class="element">
+		<div id="logo">
+		  <a href="braud_forside.html"><img alt="Bruad toastbar homepage" src="images/logo.svg"></a>
+		</div>
+		<div id="menu-mobile">
+		  <button id="nav-toggle" class="nav-toggle" aria-expanded="false" onclick="toggleNav()">
+			<span id="nav-expand" aria-hidden="true">☰</span>
+			<span id="nav-close" class="invisible" aria-hidden="true">✕</span>
+		  </button>
+		</div>
+		<div id="main-menu" class="main-menu">
+		  <ul>
+			<li>
+			  <a class="menu-item" href="meny.html">Meny</a>
+			</li>
+			<li>
+			  <a class="menu-item" href="#">Åpningstider</a>
+			</li>
+			<li>
+			  <a class="menu-item" href="#">Kontakt</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	  <div id="heading" class="element">
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+	  </div>
+	  <div id="heading_image" class="element">
+		<img src="images/header.jpeg" alt="header" style="height: 100%; width: 100%; object-fit: cover; object-position: 50% 100%;">
+	  </div>
+	  <div class="subgrid reverse">
+		<div class="element">
+		  <img src="images/pic1.jpeg" alt="pic1" style="height: 100%; width: 100%; object-fit: contain">
+		</div>
+		<div class="element">
+		  <h3>Nulla placerat est et scelerisque mattis.</h3>
+		  <p>Etiam in eleifend mauris, vel vehicula neque. Cras porta eros tortor, sit amet porta sem porttitor id. Fusce condimentum tortor non diam maximus, quis eleifend arcu pulvinar. Pellentesque et magna ligula.</p>
+		</div>
+	  </div>
+	  <div class="subgrid">
+		<div class="element">
+		  <img src="images/pic2.jpeg" alt="pic2" style="height: 100%; width: 100%; object-fit: contain">
+		</div>
+		<div class="element">
+		  <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vulputate ullamcorper diam. Maecenas sodales felis sed velit elementum, at egestas magna ornare.</p>
+		</div>
+	  </div>
+	</div>
+	
+	<footer>
+	  <p>2021</p>
+	</footer>
+  </body>
+</html> 
