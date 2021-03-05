@@ -42,19 +42,16 @@ body {
 	font-size: clamp(1rem, 8vw, 70px);
 }
 #header {
-	margin-top:0;
 	display: grid;
 	grid-template-columns: auto auto;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 0;
 }
-#logo {
-	display: flex;
-	align-items: center;
-}
-#menu-mobile {
-	display: none;
-	align-items: center;
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
 }
 
 footer {
@@ -112,7 +109,7 @@ footer {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
-	display: flex;
+	display: none;
 	padding: 0;
 	font-size: 50px;
 	color: #000;
@@ -139,33 +136,29 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-	#menu-mobile {
+	.nav-toggle {
 		display: flex;
 	}
 }
 
 .main-menu {
 	display: none;
+	grid-auto-flow: column;
 }
 
 @media screen and (min-width: 801px) {
 	.main-menu {
-		display: block;
+		display: grid;
 	}
 }
 
-.main-menu > ul {
-	display: grid;
-	grid-auto-flow: column;
-}
-
-.main-menu > ul > li > a {
+.main-menu > li > a {
 	font-size:14px;
 	text-transform: uppercase;
 	color: #000;
 	text-decoration: none;
 }
-.main-menu > ul > li {
+li {
 	list-style: none;
 }
 
