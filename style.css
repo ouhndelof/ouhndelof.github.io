@@ -60,54 +60,15 @@ footer {
 	font-size: .75rem;
 }
 
-.overlay {
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
+.overlayOnly {
 	display: none;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0, 0.9);
-}
-
-.overlay-opened {
-	display: block;
-}
-
-.overlay-content {
-	position: relative;
-	top: 25%;
-	width: 100%;
-	text-align: center;
-	margin-top: 30px;
-}
-
-.overlay a {
-	padding: 8px;
-	text-decoration: none;
-	font-size: 36px;
-	color: #818181;
-	display: block;
-	transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-	color: #f1f1f1;
-}
-
-.overlay .closebtn {
-	position: absolute;
-	top: 20px;
-	right: 45px;
-	font-size: 60px;
 }
 
 .nav-toggle {
 	z-index: 2;
 	background-color: transparent;
 	border: none;
+	outline: none;
 	cursor: pointer;
 	display: none;
 	padding: 0;
@@ -139,36 +100,57 @@ footer {
 	.nav-toggle {
 		display: flex;
 	}
-}
-
-.main-menu {
-	display: none;
-	grid-auto-flow: column;
+	.overlayOnly {
+		display: block;
+	}
+	.main-menu {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		display: none;
+		background-color: rgb(0,0,0);
+		background-color: rgba(0,0,0, 0.9);
+		align-content: center;
+		justify-items: center;
+	}
+	.main-menu > li > a {
+		padding: 8px;
+		text-decoration: none;
+		font-size: 36px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+	}
+	.main-menu > li > a:hover, .main-menu > li > a:focus {
+		color: #f1f1f1;
+	}
 }
 
 @media screen and (min-width: 801px) {
 	.main-menu {
 		display: grid;
+		grid-auto-flow: column;
+	}
+	.main-menu > li > a {
+		font-size:14px;
+		text-transform: uppercase;
+		color: #000;
+		text-decoration: none;
+		padding: 1em;
+	}
+	.main-menu > li > a:hover {
+		color: #fff;
+		background-color: #000;		  
 	}
 }
 
-.main-menu > li > a {
-	font-size:14px;
-	text-transform: uppercase;
-	color: #000;
-	text-decoration: none;
-}
 li {
 	list-style: none;
-}
-
-.menu-item {
-	padding: 1em;
-}
-
-.menu-item:hover {
-	color: #fff;
-	background-color: #000;		  
 }
 
 .food-menu {
@@ -182,27 +164,12 @@ li {
 	text-transform: uppercase;
 	text-align: center;
 }
-.menuitem {
-	font-size: 17px;
-	font-family: "Source Sans Pro";
-	display: grid;
-	grid-template-columns: auto auto;
-	justify-content: space-between;
-	gap: 0 30px;
-	align-content:start;
-}
-.menuitem > * {
-	margin: 0;
-}
 #menuheader {
 	font-family: "Open Sans Condensed";
 	text-transform: uppercase;
 	text-align: center;	
 }
-.allergens {
-	font-size: 11px;
-}
-.menuitem2 {
+.menuitem {
 	font-size: 17px;
 	font-family: "Source Sans Pro";
 }
@@ -213,13 +180,13 @@ li {
 	font-size: 12px;
 	letter-spacing: 1.1px;
 }
-.product2 {
+.product {
 	font-family: "Josefin Sans";
 	text-transform: uppercase;
 	font-size: 13px;
 	letter-spacing: 1px;
 }
-.allergens2 {
+.allergens {
 	color: rgb(125, 126, 120);
 	font-family: "Source Sans Pro";
 	font-size: 11px;
@@ -232,4 +199,7 @@ li {
     font-family: "Zilla Slab";
     text-transform: lowercase;
     font-style: italic;
+}
+.overlay-opened {
+	display: grid;
 }
