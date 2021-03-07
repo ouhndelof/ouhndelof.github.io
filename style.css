@@ -76,16 +76,18 @@ footer {
 	color: #000;
 }
 
-.nav-toggle:hover {
-	color: #818181;
+@media (hover) {
+	.nav-toggle:hover {
+		color: #818181;
+	}
+
+	.opened:hover {
+		color: #f1f1f1;
+	}
 }
 
 .opened {
 	color: #818181;
-}
-
-.opened:hover {
-	color: #f1f1f1;
 }
 
 .invisible {
