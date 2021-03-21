@@ -56,6 +56,8 @@ img {
 
 footer {
 	display: grid;
+	grid-auto-flow: column;
+	gap: 5px;
 	justify-content: right;
 	padding: .75rem;
 	text-align: center;
