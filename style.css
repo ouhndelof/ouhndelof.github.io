@@ -194,7 +194,11 @@ li {
 	color: rgb(125, 126, 120);
 	font-family: "Source Sans Pro";
 	font-size: 11px;
-	text-transform: uppercase;
+}
+.allergensOverview {
+	color: rgb(125, 126, 120);
+	font-family: "Source Sans Pro";
+	font-size: 11px;
 }
 .nodescription {
 		gap: 20px 10vw;
