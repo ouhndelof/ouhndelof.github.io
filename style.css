@@ -165,6 +165,10 @@ li {
 	grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
 }
 
+.category {
+	break-inside: avoid;
+}
+
 .category > h2 {
 	font-family: "Open Sans Condensed";
 	text-transform: uppercase;
