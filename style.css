@@ -10,6 +10,12 @@ body {
 	align-items: center;
 	grid-template-columns: 1fr;
 }
+.openingHours {
+	display: grid;
+	align-items: center;
+	grid-template-columns: max-content max-content;
+	column-gap: 1rem;
+}
 .reverse {
 	direction: rtl;
 }
