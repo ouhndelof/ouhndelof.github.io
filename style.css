@@ -22,6 +22,9 @@ body {
 .reverse > * {
 	direction: ltr;
 }
+.toastplanke {
+	margin-top: 5px;
+}
 .subgrid {
 	display: grid;
 	align-items: center;
