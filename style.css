@@ -25,6 +25,9 @@ body {
 .toastplanke {
 	margin-top: 5px;
 }
+#contact-info {
+	margin-bottom: 15px;
+}
 .subgrid {
 	display: grid;
 	align-items: center;
