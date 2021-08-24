@@ -196,7 +196,7 @@ li {
 	text-transform: uppercase;
 	text-align: center;	
 }
-#openingHoursHeader{
+.openingHoursHeader{
 	font-family: "Open Sans Condensed";
 	text-transform: uppercase;
 }
