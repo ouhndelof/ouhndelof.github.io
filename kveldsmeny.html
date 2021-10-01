@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Braud toastbar</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Xanh+Mono:400%7CSource+Sans+Pro:400%7CJosefin+Sans:700%7COpen+Sans+Condensed:700%7CSorts+Mill+Goudy%7CZilla+Slab:600,500i">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script>
+	  function toggleNav() {
+		  document.getElementById("main-menu").classList.toggle('overlay-opened');
+		  document.getElementById("nav-toggle").classList.toggle('opened');
+		  document.getElementById("nav-expand-icon").classList.toggle('invisible');
+		  document.getElementById("nav-close-icon").classList.toggle('invisible');
+		  document.body.classList.toggle("noscroll");
+	  }
+	</script>
+	
+	<div class="grid">
+	  <div id="header" class="element">
+		<a href="index.html"><img alt="Bruad toastbar homepage" src="images/logo.svg"></a>
+		<button id="nav-toggle" class="nav-toggle" aria-expanded="false" onclick="toggleNav()">
+		  <span id="nav-expand-icon" aria-hidden="true">☰</span>
+		  <span id="nav-close-icon" class="invisible" aria-hidden="true">✕</span>
+		</button>
+		<ul id="main-menu" class="main-menu">
+		  <li class="overlayOnly">
+			<a href="index.html">Hjem</a>
+		  </li>
+		  <li>
+			<a href="meny.html">Meny</a>
+		  </li>
+		  <li>
+			<a href="aapningstider.html">Åpningstider</a>
+		  </li>
+		  <li>
+			<a href="kontakt.html">Kontakt</a>
+		  </li>
+		</ul>
+	  </div>
+	  <h1 id="menuheader">Kveldsmeny</h1>
+	  <div class="allergensOverview">Allergener og forkortelser: B (bygg), Blø (bløtdyr), Egg, Ha (havre), Hn (hasselnøtt), Hv (hvete), Fi (fisk), Ka (kamut), Kn (kasjunøtt), Lup (lupiner), M (mandler), Me (melk), Pan (paranøtt), Pen (peanøtt), Pin (pistasienøtt), Pkn (pekannøtt), R (rug), Sel (selleri), Sen (sennep), Ses (sesamfrø), Ska (skalldyr), Soy (soya), Sp (spelt), Su (svoveldioksid og sulfitter), Vn (valnøtt)</div>
+
+	  <div class="category">
+		<h2>Toast</h2>
+		<div class="food-menu">
+		  <div class="menuitem">
+			<div class="product">5. Kylling &amp; bacon&nbsp;&nbsp;|&nbsp; 127,-</div>
+			<div class="description">soltørkede tomater, cheddar, mozzarella, parmesan, pesto rosso &amp; dressing av soltørkede tomater</div>
+			<div class="allergens">Me, R, M, Su, Hv. Kan inneholde spor av Blø, Ska, Sen, Sel, Fi, B, Ha, Sp, Ka, Ses og nøtter.</div>
+		  </div>
+		  <div class="menuitem">
+			<div class="product">7. Taleggio, blåmuggost &amp; brie&nbsp;&nbsp;|&nbsp; 135,-</div>
+			<div class="description">Chiliaiolidressing</div>
+			<div class="allergens">Me, R, Hv, Egg. Kan inneholde spor av B, Ha, Sp, Ka, Ses og nøtter.</div>
+		  </div>
+		  <div class="menuitem">
+			<div class="product">8. Comte, cheddar &amp; skinke&nbsp;&nbsp;|&nbsp; 124,-</div>
+			<div class="description">paprika, sennep, jalapenos &amp; chiliaiolidressing</div>
+			<div class="allergens">Me, Hv, R, Sen, Su, Egg. Kan inneholde spor av B, Ha, Sp, Ka, Ses og nøtter.</div>
+		  </div>
+		  <div class="menuitem">
+			<div class="product">17. Pulled pork, taleggio &amp; barbecuesaus&nbsp;&nbsp;|&nbsp; 135,-</div>
+			<div class="description">cheddar, mozzarella &amp; syltet rødløk</div>
+			<div class="allergens">Me, Hv, R, Sen. Kan inneholde spor av B, Ha, Sp, Ka, Ses og nøtter.</div>
+		  </div>
+		</div>
+	  </div>
+
+	</div>
+	  
+	<footer>
+	  <a href="https://instagram.com/braudtoastbar"><img alt="Bruad toastbar Instagram page" src="images/instagram.svg" style="width: 20px"></a>
+	  <a href="https://www.facebook.com/braudtoastbar"><img alt="Bruad toastbar Facebook page" src="images/facebook.svg" style="width: 20px"></a>
+	</footer>
+  </body>
+</html> 
