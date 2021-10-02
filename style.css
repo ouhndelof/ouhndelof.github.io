@@ -5,6 +5,9 @@ body {
 	margin-left: 3.5vw;
 	margin-right: 3.5vw;
 }
+a {
+	color: black;
+}
 .grid {
 	display: grid;
 	align-items: center;
