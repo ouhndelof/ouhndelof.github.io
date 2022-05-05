@@ -225,6 +225,12 @@ li {
 	font-family: "Source Sans Pro";
 	font-size: 11px;
 }
+.allergensExtraInfo {
+	color: rgb(125, 126, 120);
+	font-family: "Source Sans Pro";
+	font-size: 11px;
+    margin-top: 10px;
+}
 .allergensOverview {
 	color: rgb(125, 126, 120);
 	font-family: "Source Sans Pro";
