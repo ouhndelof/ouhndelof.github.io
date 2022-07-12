@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Braud toastbar</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Xanh+Mono:400%7CSource+Sans+Pro:400%7CJosefin+Sans:700%7COpen+Sans+Condensed:700%7CSorts+Mill+Goudy%7CZilla+Slab:600,500i">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script>
+            function toggleNav() {
+                            document.getElementById("main-menu").classList.toggle('overlay-opened');
+                            document.getElementById("nav-toggle").classList.toggle('opened');
+                            document.getElementById("nav-expand-icon").classList.toggle('invisible');
+                            document.getElementById("nav-close-icon").classList.toggle('invisible');
+                            document.body.classList.toggle("noscroll");
+                        }
+        </script>
+
+        <div class="grid">
+            <div id="header" class="element">
+                <a href="index.html"><img alt="Bruad toastbar homepage" src="images/logo.svg" style="width: 500px"></a>
+            </div>
+            <h1 id="menuheader">Meny</h1>
+            <div class="allergensOverview">Allergener og forkortelser: B (bygg), Blø (bløtdyr), Egg, Ha (havre), Hn (hasselnøtt), Hv (hvete), Fi (fisk), Ka (kamut), Kn (kasjunøtt), Lup (lupiner), M (mandler), Me (melk), Pan (paranøtt), Pen (peanøtt), Pin (pistasienøtt), Pkn (pekannøtt), R (rug), Sel (selleri), Sen (sennep), Ses (sesamfrø), Ska (skalldyr), Soy (soya), Sp (spelt), Su (svoveldioksid og sulfitter), Vn (valnøtt)</div>
+            <div class="allergensExtraInfo">Alle toastene kan lages med glutenfritt brød.</div>
+
+            <div class="category">
+                <h2>Toast</h2>
+                <div class="food-menu">
+                    <div class="menuitem">
+                        <div class="product">5. Kylling &amp; bacon&nbsp;&nbsp;|&nbsp; 139,-</div>
+                        <div class="description">soltørkede tomater, cheddar, mozzarella, parmesan, pesto rosso &amp; chiliaiolidressing</div>
+                        <div class="allergens">Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">7. Taleggio, blåmuggost &amp; brie&nbsp;&nbsp;|&nbsp; 141,-</div>
+                        <div class="description">Chiliaiolidressing</div>
+                        <div class="allergens">Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">8. Comté, cheddar &amp; skinke&nbsp;&nbsp;|&nbsp; 137,-</div>
+                        <div class="description">paprika, sennep, jalapenos &amp; chiliaiolidressing</div>
+                        <div class="allergens">Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">17. Pulled pork, taleggio &amp; barbecuesaus&nbsp;&nbsp;|&nbsp; 141,-</div>
+                        <div class="description">cheddar, mozzarella &amp; syltet rødløk</div>
+                        <div class="allergens">Hv, Me, R, Sel og Sen. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h2>Kaffe/te/sjokolade/kake</h2>
+                <div class="food-menu nodescription">
+                    <div class="menuitem">
+                        <div class="product">Cappuccino&nbsp;&nbsp;|&nbsp; <span class="italic">e:</span>42,-&nbsp;<span class="italic">d:</span>47,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Kaffe latte&nbsp;&nbsp;|&nbsp; <span class="italic">e:</span>42,-&nbsp;<span class="italic">d:</span>47,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Espresso&nbsp;&nbsp;|&nbsp; <span class="italic">e:</span>31,-&nbsp;<span class="italic">d:</span>37,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Cortado&nbsp;&nbsp;|&nbsp; <span class="italic">e:</span>39,-&nbsp;<span class="italic">d:</span>44,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Americano&nbsp;&nbsp;|&nbsp; <span class="italic">e:</span>33,-&nbsp;<span class="italic">d:</span>37,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Chai latte&nbsp;&nbsp;|&nbsp; 54,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Varm sjokolade&nbsp;&nbsp;|&nbsp; 54,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Te&nbsp;&nbsp;|&nbsp; 39,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Mocca&nbsp;&nbsp;|&nbsp; <span class="italic">e:</span>47,-&nbsp;<span class="italic">d:</span>52,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Islatte&nbsp;&nbsp;|&nbsp; 49,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Iskaffe&nbsp;&nbsp;|&nbsp; 49,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Iste&nbsp;&nbsp;|&nbsp; 45,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Ismocca&nbsp;&nbsp;|&nbsp; 52,-</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Tillegg havre&nbsp;|&nbsp; 5,-</div>
+                        <div class="allergens">Ha</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Sjokoladecookie&nbsp;&nbsp;|&nbsp; 35,-</div>
+                        <div class="allergens">Egg, Hv og Me. Kan inneholde spor av nøtter.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Dagens kake</div>
+                        <div class="description">Spør din servitør.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h2>Mineralvann</h2>
+                <div class="food-menu nodescription">
+                    <div class="menuitem">
+                        <div class="product">Cola&nbsp;&nbsp;|&nbsp; <span class="italic">33&nbsp;cl:</span>&nbsp;45,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Cola uten sukker&nbsp;&nbsp;|&nbsp; <span class="italic">33&nbsp;cl:</span>&nbsp;45,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Glitre (vann med kullsyre)&nbsp;&nbsp;|&nbsp; <span class="italic">33&nbsp;cl:</span>&nbsp;41,-</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h2>Juice</h2>
+                <div class="food-menu nodescription">
+                    <div class="menuitem">
+                        <div class="product">Gulrot&nbsp;&nbsp;|&nbsp; 49,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Mango/gulrot&nbsp;&nbsp;|&nbsp; 49,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Lemonade&nbsp;&nbsp;|&nbsp; 49,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Appelsin&nbsp;&nbsp;|&nbsp; 49,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Eple&nbsp;&nbsp;|&nbsp; 49,-</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h2>Alkoholfritt øl</h2>
+                <div class="food-menu nodescription">
+                    <div class="menuitem">
+                        <div class="product">Aass UTEN&nbsp;&nbsp;|&nbsp; <span class="italic">33&nbsp;cl:</span>&nbsp;49,-</div>
+                        <div class="allergens">B</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Fentimans ingefærøl&nbsp;&nbsp;|&nbsp; <span class="italic">275&nbsp;ml:</span>&nbsp;59,-</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="category">
+                <h2>Øl</h2>
+
+                <h3>Fat/boks</h3>
+                <div class="food-menu">
+                    <div class="menuitem">
+                        <div class="product">Aass pilsner 4,7&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">50&nbsp;cl:</span>&nbsp;96,-&nbsp;<span class="italic">25 cl:</span>&nbsp;54,-</div>
+                        <div class="description">Lys lager. Ølet har en frisk smak med lav sødme og tydelig bitterhet.</div>
+                        <div class="allergens">B</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Aass Lite Vienna 4,5&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">50&nbsp;cl:</span>&nbsp;99,-</div>
+                        <div class="description">Gyllen lager. Glutenfritt øl med 30 % færre kalorier og 70 % færre karbohydrater.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Pitcher Braud 4,7&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">2&nbsp;l:</span>&nbsp;360,-</div>
+                        <div class="description">Aass pilsner. Lys lager. Ølet har en frisk smak med lav sødme og tydelig bitterhet.</div>
+                        <div class="allergens">B</div>
+                    </div>
+                </div>
+
+                <h3>Flaske</h3>
+                <div class="food-menu">
+                    <div class="menuitem">
+                        <div class="product">Hverdags-IPA 4,7&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">33&nbsp;cl:</span>&nbsp;93,-</div>
+                        <div class="description">Tørrhumlet med citra som gir smak og aroma av sitrus, grapefrukt og tropisk frukt.</div>
+                        <div class="allergens">B, Ha og Hv.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Founders All Day IPA 4,7&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">33&nbsp;cl:</span>&nbsp;119,-</div>
+                        <div class="description">Klar lys kobberfarge, med smak av gress, tropiske frukter, grapefrukt og sitrus.</div>
+                        <div class="allergens">B, Ha og Hv.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Erdinger Weissbier Hefe 5,3&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">33&nbsp;cl:</span>&nbsp;97,-</div>
+                        <div class="description">Verdens mest solgte hveteøl, fruktige toner av sitrus, banan, nellik og krydder.</div>
+                        <div class="allergens">B og Hv.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Ginger Beer 4,2&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">33&nbsp;cl:</span>&nbsp;97,-</div>
+                        <div class="description">Produsert med ferskpresset juice av ingefær og sitron.</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="category">
+                <h2>Cider</h2>
+
+                <div class="food-menu">
+                    <div class="menuitem">
+                        <div class="product">Bulmers Original 4,5&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">50&nbsp;cl:</span>&nbsp;129,-</div>
+                        <div class="description">Fruktig balansert. Frisk og eksotisk smak.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="category">
+                <h2>Vin</h2>
+                <h3>Hvitvin</h3>
+                <div class="food-menu">
+                    <div class="menuitem">
+                        <div class="product">Husets hvite, Molino A Vento, økologisk, Italia&nbsp;&nbsp;|&nbsp; <span class="italic">flaske:</span>&nbsp;459,- <span class="italic">glass:</span>&nbsp;93,- <span class="italic">dobbel:</span>&nbsp;180,-</div>
+                        <div class="description">Strågul på farge med nyanser av grønnskskjær, sitrus og gule epler på nesen. Velbalansert med frisk munnfølelse.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Tiberius Pays d'Oc, Frankrike&nbsp;&nbsp;|&nbsp; <span class="italic">flaske:</span>&nbsp;499,- <span class="italic">glass:</span>&nbsp;99,- <span class="italic">dobbel:</span>&nbsp;194,-</div>
+                        <div class="description">En delikat vin med lyse toner av moden eksotisk frukt og sitrus. Fruktig og lett vin på smak.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                </div>
+
+                <h3>Rødvin</h3>
+                <div class="food-menu">
+                    <div class="menuitem">
+                        <div class="product">Husets røde, Molino A Vento, Italia&nbsp;&nbsp;|&nbsp; <span class="italic">flaske:</span>&nbsp;459,- <span class="italic">glass:</span>&nbsp;93,- <span class="italic">dobbel:</span>&nbsp;180,-</div>
+                        <div class="description">Mørk rød på farge, aromaer av skogsbær og kryddertoner. Fin fyldighet og bløt tanninstruktur.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Tiberius Pays d'Oc, Frankrike&nbsp;&nbsp;|&nbsp; <span class="italic">flaske:</span>&nbsp;499,- <span class="italic">glass:</span>&nbsp;99,- <span class="italic">dobbel:</span>&nbsp;194,-</div>
+                        <div class="description">Fruktig og smidig vin på smak, den har en nydelig balanse mellom de krydrede aromaene til Syrah og de røde frukttonene til Grenache noir.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                </div>
+
+                <h3>Rosévin</h3>
+                <div class="food-menu">
+                    <div class="menuitem">
+                        <div class="product">St. Antony Pinot Noir, Rheinhessen, Tyskland&nbsp;&nbsp;|&nbsp; <span class="italic">flaske:</span>&nbsp;459,- <span class="italic">glass:</span>&nbsp;93,- <span class="italic">dobbel:</span>&nbsp;180,-</div>
+                        <div class="description">Lys rosa mot lakserosa på farge, aromaer av bringebær og lyse bær. Middels fylde og fruktig munnfølelse med balansert friskhet.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                </div>
+
+                <h3>Prosecco</h3>
+                <div class="food-menu">
+                    <div class="menuitem">
+                        <div class="product">Serenello DOC, Italia&nbsp;&nbsp;|&nbsp; <span class="italic">flaske:</span>&nbsp;459,- <span class="italic">glass:</span>&nbsp;93,-</div>
+                        <div class="description">Lys strågul med grønnskjær på farge, gule epler og hvite blomster på nesen. Livlig og behagelige bobler.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h2>Drinker</h2>
+                <div class="food-menu nodescription">
+                    <div class="menuitem">
+                        <div class="product">Himkok Oslo Mule 8&nbsp;%&nbsp;&nbsp;|&nbsp; <span class="italic">20&nbsp;cl:</span>&nbsp;119,-</div>
+                        <div class="description">På tapp.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Moscow Mule&nbsp;&nbsp;|&nbsp; 137,-</div>
+                        <div class="description">Vodka, sitronsaft, alkoholfri ingefærøl.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Gin tonic&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Agurk, appelsin og sort pepper, gin og tonic.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Old Fashioned&nbsp;&nbsp;|&nbsp; 137,-</div>
+                        <div class="description">Bourbon, angostura bitter, sukkerlake.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Espresso Martini&nbsp;&nbsp;|&nbsp; 137,-</div>
+                        <div class="description">Espresso, vodka, kaffelikør.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Whiskey Sour&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Whiskey, sitronsaft, sukkerlake, angostura bitter.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Irish coffee&nbsp;&nbsp;|&nbsp; 137,-</div>
+                        <div class="description">Whiskey, espresso, sukker, kremfløte.</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Mojito&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Lys rom, lime, sukkerlake, mynteblader, soda.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Aperol Spritz&nbsp;&nbsp;|&nbsp; 137,-</div>
+                        <div class="description">Aperol, prosecco, appelsin.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Amaretto Sour&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Amaretto, sitronsaft, sukkerlake, angostura bitter.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Mimosa&nbsp;&nbsp;|&nbsp; 109,-</div>
+                        <div class="description">Prosecco, appelsinjuice.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Absolut vodka&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;80,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Hendricks gin&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;95,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Whiskey Jameson&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;80,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Bourbon Makers Mark&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;85,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Rum Mount Gay&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;80,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">French 75&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Gin, sitronsaft, sukkerlake, prosecco.</div>
+                        <div class="allergens">Su</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Margarita&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Tequila, Triple Sec, limejuice, sukkerlake.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Paloma&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Tequila, grapefruktjuice, limejuice, sukkerlake, sodavann.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Bloody Mary&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Vodka, tomatjuice, tabasko, worcestersaus, sitronsaft, salt, pepper, stangselleri.</div>
+                        <div class="allergens">B og Fi.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">White Russian&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Vodka, Kahlua, kremfløte.</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Pink'elicious&nbsp;&nbsp;|&nbsp; 143,-</div>
+                        <div class="description">Cointreau, tranebærjuice, limejuice.</div>
+                        <div class="allergens">Me</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Tequila&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;80,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Jagermeister&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;80,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Fernet-branca&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;90,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Kahlua&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;69,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Havana Club&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;80,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Amaretto&nbsp;&nbsp;|&nbsp; <span class="italic">4&nbsp;cl:</span>&nbsp;80,-</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Mineralvann tillegg&nbsp;&nbsp;|&nbsp; 29,-</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h2>Snacks</h2>
+                <div class="food-menu nodescription">
+                    <div class="menuitem">
+                        <div class="product">Peanøtter&nbsp;&nbsp;|&nbsp; 29,-</div>
+                        <div class="allergens">Pen. Kan inneholde spor av andre nøtter.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Peanøtter med chilikrydder&nbsp;&nbsp;|&nbsp; 29,-</div>
+                        <div class="allergens">Gluten og Pen. Kan inneholde spor av andre nøtter.</div>
+                    </div>
+                    <div class="menuitem">
+                        <div class="product">Grønne/svarte oliven&nbsp;&nbsp;|&nbsp; 29,-</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html> 
