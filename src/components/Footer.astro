@@ -1,0 +1,24 @@
+---
+import { Icon } from 'astro-icon';
+import { social } from '../config.js';
+---
+<footer>
+    {social.map(item => (
+        <a href={item.href} title={item.title}>
+            <Icon name={item.icon} size="25px" role="presentation" aria-hidden="true" />
+        </a>
+    ))}
+</footer>
+
+<style>
+footer {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+    justify-content: right;
+    padding: .75rem;
+}
+[astro-icon] {
+    color: black;
+}
+</style>

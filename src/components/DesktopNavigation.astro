@@ -1,0 +1,47 @@
+---
+import { navigation } from '../config.js';
+---
+
+<nav>
+    <ul id="main-menu">
+        {navigation.filter(item => !item.hiddenDesktop).map(item => (
+            <li>
+                <a href={item.href}>{item.title}</a>
+            </li>
+        ))}
+    </ul>
+</nav>
+
+<style>
+nav {
+    display: none;
+}
+
+ul {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size:14px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    padding: 1em;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #000;          
+}
+
+@media screen and (min-width: 801px) {
+    nav {
+        display: block;
+    }
+}
+</style>

@@ -1,0 +1,112 @@
+---
+import { navigation } from '../config.js';
+---
+
+<nav>
+    <button id='nav-toggle' aria-expanded='false'>
+        <span id='nav-expand-icon'>☰</span>
+        <span id='nav-close-icon'>✕</span>
+    </button>
+
+    <ul id='main-menu'>
+        {navigation.map(item => (
+            <li>
+                <a href={item.href}>{item.title}</a>
+            </li>
+        ))}
+    </ul>
+</nav>
+
+<script type='module'>
+const navToggle = document.querySelector('#nav-toggle');
+var menuOpen = false;
+
+navToggle.addEventListener('click', _ => {
+    menuOpen = !menuOpen;
+
+    if (menuOpen) {
+        document.querySelector('#main-menu').setAttribute('style', 'display: grid');
+        document.querySelector('#nav-expand-icon').setAttribute('style', 'display: none');
+        document.querySelector('#nav-close-icon').setAttribute('style', 'display: block');
+        document.body.setAttribute('style', 'overflow: hidden');
+    }
+    else {
+        document.querySelector('#main-menu').setAttribute('style', 'display: none');
+        document.querySelector('#nav-expand-icon').setAttribute('style', 'display: block');
+        document.querySelector('#nav-close-icon').setAttribute('style', 'display: none');
+        document.body.setAttribute('style', 'overflow: visible');
+    }
+});
+</script>
+
+<style>
+nav {
+    display: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    align-content: center;
+    justify-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+li > a:hover, li > a:focus {
+    color: #f1f1f1;
+}
+
+#nav-toggle {
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    font-size: 50px;
+    color: #000;
+}
+
+#nav-close-icon {
+	color: #818181;
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: grid;
+    }
+}
+
+@media (hover) {
+	#nav-toggle:hover {
+		color: #818181;
+	}
+
+	#nav-close-icon:hover {
+		color: #f1f1f1;
+	}
+}
+</style>

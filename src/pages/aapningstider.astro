@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout client:load title='Braud toastbar'>
+    <main>
+        <h2 class="openingHoursHeader">Åpningstider</h2>
+        <div class="openingHours">
+            <div class="day">
+                Mandag:
+            </div>
+            <div class="hours">
+                11.00–18.00
+            </div>
+            <div class="day">
+                Tirsdag:
+            </div>
+            <div class="hours">
+                11.00–18.00
+            </div>
+            <div class="day">
+                Onsdag:
+            </div>
+            <div class="hours">
+                11.00–18.00
+            </div>
+            <div class="day">
+                Torsdag:
+            </div>
+            <div class="hours">
+                11.00–00.00
+            </div>
+            <div class="day">
+                Fredag:
+            </div>
+            <div class="hours">
+                11.00–01.00
+            </div>
+            <div class="day">
+                Lørdag:
+            </div>
+            <div class="hours">
+                11.00–01.00
+            </div>
+            <div class="day">
+                Søndag:
+            </div>
+            <div class="hours">
+                11.00–18.00
+            </div>
+        </div>
+
+        <p>Etter 18.00 er det en egen <a href="/kveldsmeny/">kveldsmeny</a>.</p>
+    </main>
+</Layout>
+
+<style>
+.openingHours {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content max-content;
+    column-gap: 1rem;
+}
+.openingHoursHeader{
+    font-family: "Open Sans Condensed";
+    text-transform: uppercase;
+}
+a {
+    color: black;
+}
+</style>

@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import foodmenu from '../foodmenu.json';
+---
+
+<Layout client:load title="Braud toastbar">
+    <main>
+        <h1 id="menuheader">Kveldsmeny</h1>
+        <div class="allergensOverview">Allergener og forkortelser: {foodmenu.allergensAbbreviations}</div>
+        <div class="allergensExtraInfo">{foodmenu.foodIntoleranceInfo}</div>
+              
+        {foodmenu.foodCategories.filter(x => x.foodItems?.some(x => x.isOnEveningMenuWeb)).map(foodCategory => (
+            <div class="category">
+                <h2>
+                    {foodCategory.foodCategory}{foodCategory.description && 
+                        '\u00a0\u00a0|\u00a0 ' + foodCategory.description
+                    }
+                </h2>
+                <Card
+                    foodItems = {(foodCategory.foodItems as any[]).filter(x => x.isOnEveningMenuWeb)}
+                    noDescription = {![
+                        'Toast',
+                        'Åpen toast',
+                        'Frokostmeny (serveres til kl. 15.00)',
+                        'Toastplanke'
+                    ].includes(foodCategory.foodCategory)}
+                />
+                {foodCategory.subCategories &&
+                    foodCategory.subCategories.map(foodCategory => (
+                        <h3>{foodCategory.foodCategory}</h3>
+                        <Card foodItems = {foodCategory.foodItems} />
+                    ))
+                }
+            </div>
+        ))}
+    </main>
+</Layout>
+
+<style>
+#menuheader {
+    font-family: 'Open Sans Condensed';
+    text-transform: uppercase;
+    text-align: center;    
+}
+.category {
+    break-inside: avoid;
+}
+.category > h2 {
+    font-family: 'Open Sans Condensed';
+    text-transform: uppercase;
+    text-align: center;
+}
+.category > h3 {
+    font-family: 'Open Sans Condensed';
+    text-transform: uppercase;
+    text-align: center;
+}
+.allergensExtraInfo {
+    color: rgb(125, 126, 120);
+    font-family: 'Source Sans Pro';
+    font-size: 11px;
+    margin-top: 10px;
+}
+.allergensOverview {
+    color: rgb(125, 126, 120);
+    font-family: 'Source Sans Pro';
+    font-size: 11px;
+}
+</style>
