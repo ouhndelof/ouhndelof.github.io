@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import FoodItems from '../components/FoodItems.astro';
 import foodmenu from '../foodmenu.json';
 ---
 
@@ -17,7 +17,7 @@ import foodmenu from '../foodmenu.json';
                         '\u00a0\u00a0|\u00a0 ' + foodCategory.description
                     }
                 </h2>
-                <Card
+                <FoodItems
                     foodItems = {(foodCategory.foodItems as any[]).filter(x => x.isOnEveningMenuWeb)}
                     noDescription = {![
                         'Toast',
@@ -29,7 +29,7 @@ import foodmenu from '../foodmenu.json';
                 {foodCategory.subCategories &&
                     foodCategory.subCategories.map(foodCategory => (
                         <h3>{foodCategory.foodCategory}</h3>
-                        <Card foodItems = {foodCategory.foodItems} />
+                        <FoodItems foodItems = {foodCategory.foodItems} />
                     ))
                 }
             </div>
