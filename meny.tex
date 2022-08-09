@@ -1,0 +1,175 @@
+\documentclass{article}
+\usepackage{luacode}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage[norsk]{babel}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{sectsty}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{tikzpagenodes}
+\usepackage{svg}
+\usepackage{pgfpages}
+\pgfpagesuselayout{2 on 1}[a3paper,landscape]
+
+\sectionfont{\centering}
+\subsectionfont{\centering}
+\subsubsectionfont{\centering}
+\setlist[itemize]{label={},leftmargin=0pt}
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+\newcommand{\foodtitle}[1]{\textbf{#1}}
+%\DeclareTextFontCommand{\foodtitle}{\vadjust{\nobreak}\textbf}
+\raggedcolumns
+\listfiles
+
+\begin{luacode}
+    require("lualibs.lua")
+    local f = io.open('src/foodmenu.json', 'r')
+    local s = f:read('*a'):gsub('–', '--'):gsub('\\u00a0', [[\\,]]):gsub('&', [[\\&]]):gsub([[%%]], [[\\%%]])
+    f:close()
+    data = utilities.json.tolua(s)
+    data = data
+\end{luacode}
+
+\begin{luacode*}
+    function printHeader(title, description)
+        header = title
+        if description then
+            description = [[\,| ]] .. description
+        end
+        tex.print([[\subsection*{\MakeUppercase{]], title, description, [[}}]])
+    end
+
+    function printSubHeader(title, description)
+        header = title
+        if description then
+            description = [[\,| ]] .. description
+        end
+        tex.print([[\subsubsection*{\MakeUppercase{]], title, description, [[}}]])
+    end
+
+    function printDescription(description)
+        tex.print([[\\]] .. [[\MakeUppercase{]] .. description .. [[}]])
+    end
+
+    function printDescriptionNewParagraph(description)
+        tex.print([[\\\\]], [[\MakeUppercase{]] .. description .. [[}]])
+    end
+
+    function printAllergens(allergens)
+        if not allergens then do return end end
+        tex.print([[\\]] .. allergens)
+    end
+
+    function printFoodItems(foodItems)
+        if not foodItems then do return end end
+
+        tex.print([[\begin{itemize}]])
+
+        for _, foodItem in ipairs(foodItems) do
+            if foodItem.isNotOnDaytimeMenu then goto continue end
+
+            itemName = [[\MakeUppercase{]] .. foodItem.name .. [[}]]
+            if foodItem.number then
+                itemName = foodItem.number .. '. ' .. itemName
+            end
+            if foodItem.price or foodItem.priceCategories then
+                itemName = itemName .. [[~~|\,]]
+            end
+            if foodItem.price then
+                itemName = itemName .. ' ' .. foodItem.price .. ',-'
+            end
+            if foodItem.priceCategories then
+                for i, priceCategory in ipairs(foodItem.priceCategories) do
+                    itemName = itemName .. ' ' .. [[\emph{\textmd{]] .. priceCategory.category .. [[:}}]] .. [[\,]] .. priceCategory.price .. ',-'
+                end
+            end
+            tex.print([[\item]] .. [[\begin{minipage}[t]{\linewidth} \textbf{]] .. itemName .. [[} ]])
+            if foodItem.description then
+                printDescription(foodItem.description)
+            end
+            if foodItem.allergens then
+                printAllergens(foodItem.allergens)
+            end
+            if foodItem.descriptions then
+                for i, description in ipairs(foodItem.descriptions) do
+                    if i > 1 and foodItem.descriptions[i - 1].allergens then
+                        printDescriptionNewParagraph(description.description)
+                    else
+                        printDescription(description.description)
+                    end
+                    printAllergens(description.allergens)
+                end
+            end
+            tex.print([[\end{minipage}]])
+            ::continue::
+        end
+
+        tex.print([[\end{itemize}]])
+    end
+    
+
+    function printCategories(foodCategories)
+        for _, foodCategory in ipairs(foodCategories) do
+            if foodCategory.foodItems then
+                if not isIncluded(foodCategory.foodItems) then goto continue end
+                tex.print([[\begin{multicols}{2}]], '[')
+                printHeader(foodCategory.foodCategory, foodCategory.description)
+                tex.print(']')
+                printFoodItems(foodCategory.foodItems)
+                tex.print([[\end{multicols}]])
+            end
+            if foodCategory.subCategories then
+                for i, subCategory in ipairs(foodCategory.subCategories) do
+                    if not isIncluded(subCategory.foodItems) then goto continue end
+                    tex.print([[\begin{multicols}{2}]], '[')
+                    if i == 1 then
+                        printHeader(foodCategory.foodCategory, foodCategory.description)
+                    end
+                    printSubHeader(subCategory.foodCategory)
+                    tex.print(']')
+                    printFoodItems(subCategory.foodItems)
+                    tex.print([[\end{multicols}]])
+                end
+            end
+            ::continue::
+        end
+    end
+
+    function isIncluded(foodItems)
+        for _, foodItem in ipairs(foodItems) do
+            if not foodItem.isNotOnDaytimeMenu then
+                return true
+            end
+        end
+        return false
+    end
+\end{luacode*}
+\begin{document}
+
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.north west)}]
+\node[anchor=north west,xshift=.5in,yshift=0pt]{\includesvg{logo}};
+\end{tikzpicture}
+
+\section*{\MakeUppercase{Meny}}
+
+Allergener og forkortelser: \directlua{tex.print(data.allergensAbbreviations)}.
+
+\directlua{tex.print(data.foodIntoleranceInfo)}
+\directlua{
+    printCategories(data.foodCategories)
+}
+
+\end{document}
