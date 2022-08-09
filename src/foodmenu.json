@@ -1021,15 +1021,6 @@
                     "isOnEveningMenuPrint": true
                 }
             ]
-        },
-        {
-            "foodCategory": "Diverse",
-            "foodItems": [
-                {
-                    "name": "Sitteunderlag",
-                    "price": 35
-                }
-            ]
         }
     ]
 }
