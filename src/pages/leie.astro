@@ -2,20 +2,21 @@
 import Layout from '../layouts/Layout.astro';
 import { MyGallery } from '../components/ImageGallery'
 import 'react-image-gallery/styles/css/image-gallery.css'
-import fs from 'fs'
-import path from 'path'
 
-var images = []
-var filenames = fs.readdirSync('public/images/leie');
-
-filenames.forEach((filename) => {
-    if (['.JPG'].includes(path.extname(filename))) {
-        images.push({
-            original: `/images/leie/${filename}`,
-            thumbnail: `/images/leie/${filename}`
-        });
-    }
-});
+const images = [
+  {
+    original: 'https://picsum.photos/id/1018/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1018/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1015/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1019/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+  },
+];
 ---
 
 <Layout client:load title="Braud toastbar">
