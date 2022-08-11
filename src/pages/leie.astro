@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { MyGallery } from '../components/ImageGallery'
+import 'react-image-gallery/styles/css/image-gallery.css'
+import fs from 'fs'
+import path from 'path'
+
+var images = []
+var filenames = fs.readdirSync('public/images/leie');
+
+filenames.forEach((filename) => {
+    if (['.JPG'].includes(path.extname(filename))) {
+        images.push({
+            original: `/images/leie/${filename}`,
+            thumbnail: `/images/leie/${filename}`
+        });
+    }
+});
+---
+
+<Layout client:load title="Braud toastbar">
+    <main>
+    <section>Ønsker du å leie Braud toastbar til dine arrangementer? Bursdag, vennefest, bedriftsarrangement, julebord?</section>
+
+    <section>Lokalet kan lukkes eksklusivt for deres gjester.</section>
+
+    <section>
+        Vi tilbyr:
+        <ul>
+            <li>musikkanlegg</li>
+            <li>fleksibel møblering</li>
+            <li>matmeny tilpasset deres ønsker (tapas, selskapsmeny, vegansk m.m.)</li>
+            <li>bar med alle rettigheter til kl. 03.00</li>
+            <li>kapasitet: 35 sitteplasser</li>
+        </ul>
+    </section>
+
+    <section>Kom innom oss på Grünerløkka for en prat eller kontakt oss på <a href="mailto:post@braud.no">post@braud.no</a>.</section>
+
+    <MyGallery client:load items={images} />
+    </main>
+</Layout>
+
+<style>
+a {
+    color: black;
+}
+ul {
+    margin: 0;
+}
+main {
+    display: grid;
+    gap: 15px;
+}
+</style>

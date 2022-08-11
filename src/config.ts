@@ -16,4 +16,5 @@ export const navigation = [
     { href: '/meny/', title: 'Meny' },
     { href: '/aapningstider/', title: 'Åpningstider' },
     { href: '/kontakt/', title: 'Kontakt' },
+    { href: '/leie/', title: 'Leie lokale' },
 ]
