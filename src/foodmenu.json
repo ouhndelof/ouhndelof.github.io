@@ -9,14 +9,14 @@
                     "number": 1,
                     "name": "Karamellisert løk & sjampinjong",
                     "description": "brie, tilsiter & mangosennepsdressing",
-                    "price": 129,
+                    "price": 134,
                     "allergens": "B, Egg, Fi, Hv, Me, R, Sen og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 16,
                     "name": "Hummus, soltørkede tomater & oliven (vegansk)",
                     "description": "jalapenos & ristede solsikkefrø",
-                    "price": 119,
+                    "price": 129,
                     "allergens": "Hv, R, Ses og Su. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, Me, nøtter, Sel, Sen og Sp."
                 }
             ]
@@ -28,21 +28,21 @@
                     "number": 3,
                     "name": "Tunfiskrøre, tomat & cheddar",
                     "description": "vårløk, dill, majones, lime & oliven",
-                    "price": 141,
+                    "price": 146,
                     "allergens": "Egg, Fi, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 4,
                     "name": "Kylling & comté",
                     "description": "skinke, mozzarella, tomat, majonessennep & limemajonesdressing",
-                    "price": 139,
+                    "price": 144,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 5,
                     "name": "Kylling & bacon",
                     "description": "soltørkede tomater, cheddar, mozzarella, parmesan, pesto rosso & chiliaiolidressing",
-                    "price": 139,
+                    "price": 146,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -51,14 +51,14 @@
                     "number": 6,
                     "name": "Tilsiter, mozzarella & cheddar",
                     "description": "skinke, sennep & mangosennepsdressing",
-                    "price": 132,
+                    "price": 136,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 7,
                     "name": "Taleggio, blåmuggost & brie",
                     "description": "Chiliaiolidressing",
-                    "price": 141,
+                    "price": 146,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -68,14 +68,14 @@
                     "number": 8,
                     "name": "Comté, cheddar & skinke",
                     "description": "paprika, sennep, jalapenos & chiliaiolidressing",
-                    "price": 137,
+                    "price": 142,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
 
                 },
                 {
-                    "number": 9,
+                    "number": 142,
                     "name": "Chevre, mozzarella & skinke",
                     "description": "pære, valnøtter, timian, honning & limemajonesdressing",
                     "price": 137,
@@ -86,10 +86,10 @@
                     "name": "Oscars toast for kule kidz",
                     "description": "mozzarella, cheddar, skinke & limemajonesdressing",
                     "priceCategories": [
-                        { "price": 73,
+                        { "price": 76,
                           "category": "l"
                         },
-                        { "price": 103,
+                        { "price": 108,
                           "category": "s"
                         }
                     ],
@@ -99,7 +99,7 @@
                     "number": 17,
                     "name": "Pulled pork, taleggio & barbecuesaus",
                     "description": "cheddar, mozzarella & syltet rødløk",
-                    "price": 141,
+                    "price": 146,
                     "allergens": "Hv, Me, R, Sel og Sen. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -109,7 +109,7 @@
                     "number": 18,
                     "name": "Guttas grønnløkka",
                     "description": "kylling, bacon, avokado, soltørkede tomater, cheddar, mozzarella, parmesan, pesto rosso & chiliaiolidressing",
-                    "price": 147,
+                    "price": 152,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                 },
                 {
@@ -117,7 +117,7 @@
                     "name": "Sophies toast for kule kidz",
                     "description": "mozzarella, cheddar & limemajonesdressing",
                     "priceCategories": [
-                        { "price": 69,
+                        { "price": 71,
                           "category": "l"
                         },
                         { "price": 99,
@@ -164,28 +164,28 @@
                     "number": 11,
                     "name": "Avokado & posjert egg",
                     "description": "limemajonesdressing",
-                    "price": 132,
+                    "price": 137,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 12,
                     "name": "Eggerøre & bacon",
                     "description": "chiliaiolidressing",
-                    "price": 132,
+                    "price": 137,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 13,
                     "name": "Avokado & posjert egg + yoghurt",
                     "description": "Limemajonesdressing. Rørte bær & granola.",
-                    "price": 177,
+                    "price": 179,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
                 {
                     "number": 14,
                     "name": "Eggerøre & bacon + yoghurt",
                     "description": "Chiliaiolidressing. Rørte bær & granola.",
-                    "price": 177,
+                    "price": 179,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
                 {
@@ -199,7 +199,7 @@
         },
         {
             "foodCategory": "Toastplanke",
-            "description": "137,- per person (serveres 16.00–18.00)",
+            "description": "142,- per person (serveres 16.00–18.00)",
             "foodItems": [
                 {
                     "name": "Liten planke (3 personer)",
@@ -531,11 +531,11 @@
                             "description": "Lys lager. Ølet har en frisk smak med lav sødme og tydelig bitterhet.",
                             "priceCategories": [
                                 {
-                                    "price": 96,
+                                    "price": 98,
                                     "category": "50\u00a0cl"
                                 },
                                 {
-                                    "price": 54,
+                                    "price": 57,
                                     "category": "25\u00a0cl"
                                 }
                             ],
@@ -547,7 +547,7 @@
                             "description": "Gyllen lager. Glutenfritt øl med 30\u00a0% færre kalorier og 70\u00a0% færre karbohydrater.",
                             "priceCategories": [
                                 {
-                                    "price": 99,
+                                    "price": 107,
                                     "category": "50\u00a0cl"
                                 }
                             ],
@@ -558,7 +558,7 @@
                             "description": "Aass pilsner. Lys lager. Ølet har en frisk smak med lav sødme og tydelig bitterhet.",
                             "priceCategories": [
                                 {
-                                    "price": 360,
+                                    "price": 372,
                                     "category": "2\u00a0l"
                                 }
                             ],
@@ -599,7 +599,7 @@
                             "description": "Verdens mest solgte hveteøl, fruktige toner av sitrus, banan, nellik og krydder.",
                             "priceCategories": [
                                 {
-                                    "price": 97,
+                                    "price": 99,
                                     "category": "33\u00a0cl"
                                 }
                             ],
@@ -611,7 +611,7 @@
                             "description": "Produsert med ferskpresset juice av ingefær og sitron.",
                             "priceCategories": [
                                 {
-                                    "price": 97,
+                                    "price": 99,
                                     "category": "33\u00a0cl"
                                 }
                             ],
@@ -649,15 +649,15 @@
                             "description": "Strågul på farge med nyanser av grønnskskjær, sitrus og gule epler på nesen. Velbalansert med frisk munnfølelse.",
                             "priceCategories": [
                                 {
-                                    "price": 459,
+                                    "price": 469,
                                     "category": "flaske"
                                 },
                                 {
-                                    "price": 93,
+                                    "price": 97,
                                     "category": "glass"
                                 },
                                 {
-                                    "price": 180,
+                                    "price": 190,
                                     "category": "dobbel"
                                 }
                             ],
@@ -669,7 +669,7 @@
                             "description": "En delikat vin med lyse toner av moden eksotisk frukt og sitrus. Fruktig og lett vin på smak.",
                             "priceCategories": [
                                 {
-                                    "price": 499,
+                                    "price": 489,
                                     "category": "flaske"
                                 },
                                 {
@@ -677,7 +677,7 @@
                                     "category": "glass"
                                 },
                                 {
-                                    "price": 194,
+                                    "price": 192,
                                     "category": "dobbel"
                                 }
                             ],
@@ -694,15 +694,15 @@
                             "description": "Mørk rød på farge, aromaer av skogsbær og kryddertoner. Fin fyldighet og bløt tanninstruktur.",
                             "priceCategories": [
                                 {
-                                    "price": 459,
+                                    "price": 469,
                                     "category": "flaske"
                                 },
                                 {
-                                    "price": 93,
+                                    "price": 97,
                                     "category": "glass"
                                 },
                                 {
-                                    "price": 180,
+                                    "price": 190,
                                     "category": "dobbel"
                                 }
                             ],
@@ -714,7 +714,7 @@
                             "description": "Fruktig og smidig vin på smak, den har en nydelig balanse mellom de krydrede aromaene til Syrah og de røde frukttonene til Grenache noir.",
                             "priceCategories": [
                                 {
-                                    "price": 499,
+                                    "price": 489,
                                     "category": "flaske"
                                 },
                                 {
@@ -722,7 +722,7 @@
                                     "category": "glass"
                                 },
                                 {
-                                    "price": 194,
+                                    "price": 192,
                                     "category": "dobbel"
                                 }
                             ],
@@ -739,15 +739,15 @@
                             "description": "Lys rosa mot lakserosa på farge, aromaer av bringebær og lyse bær. Middels fylde og fruktig munnfølelse med balansert friskhet.",
                             "priceCategories": [
                                 {
-                                    "price": 459,
+                                    "price": 489,
                                     "category": "flaske"
                                 },
                                 {
-                                    "price": 93,
+                                    "price": 99,
                                     "category": "glass"
                                 },
                                 {
-                                    "price": 180,
+                                    "price": 192,
                                     "category": "dobbel"
                                 }
                             ],
@@ -764,11 +764,11 @@
                             "description": "Lys strågul med grønnskjær på farge, gule epler og hvite blomster på nesen. Livlig og behagelige bobler.",
                             "priceCategories": [
                                 {
-                                    "price": 459,
+                                    "price": 469,
                                     "category": "flaske"
                                 },
                                 {
-                                    "price": 93,
+                                    "price": 97,
                                     "category": "glass"
                                 }
                             ],
