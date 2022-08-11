@@ -1,11 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { MyGallery } from '../components/ImageGallery'
+import Carousel from '../components/ImageCarousel'
 import 'react-image-gallery/styles/css/image-gallery.css'
 import fs from 'fs'
 import path from 'path'
 
 var images = []
+var images2 = []
 var filenames = fs.readdirSync('public/images/leie');
 
 filenames.forEach((filename) => {
@@ -14,6 +15,12 @@ filenames.forEach((filename) => {
             original: `/images/leie/${filename}`,
             thumbnail: `/images/leie/${filename}`
         });
+    }
+});
+
+filenames.forEach((filename) => {
+    if (['.jpg'].includes(path.extname(filename).toLowerCase())) {
+        images2.push(`/images/leie/${filename}`);
     }
 });
 ---
@@ -37,7 +44,7 @@ filenames.forEach((filename) => {
 
     <section>Kom innom oss på Grünerløkka for en prat eller kontakt oss på <a href="mailto:post@braud.no">post@braud.no</a>.</section>
 
-    <!-- <MyGallery client:load items={images} />-->
+    <Carousel client:load items={images2} />
     </main>
 </Layout>
 
@@ -51,5 +58,8 @@ ul {
 main {
     display: grid;
     gap: 15px;
+}
+img {
+    width: 900px;
 }
 </style>
