@@ -10,26 +10,29 @@ import foodmenu from '../foodmenu.json';
         <div class="allergensOverview">Allergener og forkortelser: {foodmenu.allergensAbbreviations}</div>
         <div class="allergensExtraInfo">{foodmenu.foodIntoleranceInfo}</div>
               
-        {foodmenu.foodCategories.map(foodCategory => (
+        {foodmenu.foodCategories.filter(x => x.foodItems?.some(x => !x.isNotOnDaytimeMenu)
+            || x.subCategories?.some(y => y.foodItems?.some(z => !z.isNotOnDaytimeMenu))).map(foodCategory => (
             <div class="category">
                 <h2>
                     {foodCategory.foodCategory}{foodCategory.description && 
                         '\u00a0\u00a0|\u00a0 ' + foodCategory.description
                     }
                 </h2>
-                <FoodItems
-                    foodItems = {foodCategory.foodItems}
-                    noDescription = {![
-                        'Toast',
-                        'Åpen toast',
-                        'Frokostmeny (serveres til kl. 15.00)',
-                        'Toastplanke'
-                    ].includes(foodCategory.foodCategory)}
-                />
+                {foodCategory.foodItems &&
+                    <FoodItems
+                        foodItems = {(foodCategory.foodItems as any[]).filter(x => !x.isNotOnDaytimeMenu)}
+                        noDescription = {![
+                            'Toast',
+                            'Åpen toast',
+                            'Frokostmeny (serveres til kl. 15.00)',
+                            'Toastplanke'
+                        ].includes(foodCategory.foodCategory)}
+                    />
+                }
                 {foodCategory.subCategories &&
                     foodCategory.subCategories.map(foodCategory => (
                         <h3>{foodCategory.foodCategory}</h3>
-                        <FoodItems foodItems = {foodCategory.foodItems} />
+                        <FoodItems foodItems = {foodCategory.foodItems.filter(x => !x.isNotOnDaytimeMenu)} />
                     ))
                 }
             </div>
