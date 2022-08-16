@@ -1,26 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Carousel from '../components/ImageCarousel'
-import 'react-image-gallery/styles/css/image-gallery.css'
 import fs from 'fs'
 import path from 'path'
 
 var images = []
-var images2 = []
 var filenames = fs.readdirSync('public/images/leie');
 
 filenames.forEach((filename) => {
-    if (['.JPG'].includes(path.extname(filename))) {
-        images.push({
-            original: `/images/leie/${filename}`,
-            thumbnail: `/images/leie/${filename}`
-        });
-    }
-});
-
-filenames.forEach((filename) => {
     if (['.jpg'].includes(path.extname(filename).toLowerCase())) {
-        images2.push(`/images/leie/${filename}`);
+        images.push(`/images/leie/${filename}`);
     }
 });
 ---
@@ -44,7 +32,12 @@ filenames.forEach((filename) => {
 
     <section>Kom innom oss på Grünerløkka for en prat eller kontakt oss på <a href="mailto:post@braud.no">post@braud.no</a>.</section>
 
-    <!--<Carousel client:load items={images2} />-->
+    <div class="images">
+        {images.map(x =>
+            <img src={x}>
+        )
+        }
+    </div>
     </main>
 </Layout>
 
@@ -59,7 +52,13 @@ main {
     display: grid;
     gap: 15px;
 }
+.images {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
 img {
-    width: 900px;
+    max-height: 90vh;
+    max-width: 100%;
 }
 </style>
