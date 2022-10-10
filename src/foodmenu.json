@@ -162,6 +162,7 @@
                 {
                     "number": 11,
                     "name": "Avokado & posjert egg",
+                    "description": "Rødløk, tomat, persille & lime",
                     "price": 137,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
@@ -174,7 +175,7 @@
                 {
                     "number": 13,
                     "name": "Avokado & posjert egg + yoghurt",
-                    "description": "Rørte bær & granola",
+                    "description": "Rødløk, tomat, persille & lime. Rørte bær & granola",
                     "price": 179,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
