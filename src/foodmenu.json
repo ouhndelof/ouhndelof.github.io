@@ -8,7 +8,7 @@
                 {
                     "number": 1,
                     "name": "Karamellisert løk & sjampinjong",
-                    "description": "brie, tilsiter & mangosennepsdressing",
+                    "description": "brie & tilsiter",
                     "price": 134,
                     "allergens": "B, Egg, Fi, Hv, Me, R, Sen og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
                 },
@@ -34,14 +34,14 @@
                 {
                     "number": 4,
                     "name": "Kylling & comté",
-                    "description": "skinke, mozzarella, tomat, majonessennep & limemajonesdressing",
+                    "description": "skinke, mozzarella, tomat & majonessennep",
                     "price": 144,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 5,
                     "name": "Kylling & bacon",
-                    "description": "soltørkede tomater, cheddar, mozzarella, parmesan, pesto rosso & chiliaiolidressing",
+                    "description": "soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
                     "price": 146,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
@@ -50,14 +50,13 @@
                 {
                     "number": 6,
                     "name": "Tilsiter, mozzarella & cheddar",
-                    "description": "skinke, sennep & mangosennepsdressing",
+                    "description": "skinke & sennep",
                     "price": 136,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 7,
                     "name": "Taleggio, blåmuggost & brie",
-                    "description": "Chiliaiolidressing",
                     "price": 146,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
@@ -67,7 +66,7 @@
                 {
                     "number": 8,
                     "name": "Comté, cheddar & skinke",
-                    "description": "paprika, sennep, jalapenos & chiliaiolidressing",
+                    "description": "paprika, sennep & jalapenos",
                     "price": 142,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
@@ -77,14 +76,14 @@
                 {
                     "number": 9,
                     "name": "Chevre, mozzarella & skinke",
-                    "description": "pære, valnøtter, timian, honning & limemajonesdressing",
+                    "description": "pære, valnøtter, timian & honning",
                     "price": 142,
                     "allergens": "Egg, Hv, Me, R og Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 10,
                     "name": "Oscars toast for kule kidz",
-                    "description": "mozzarella, cheddar, skinke & limemajonesdressing",
+                    "description": "mozzarella, cheddar & skinke",
                     "priceCategories": [
                         { "price": 76,
                           "category": "l"
@@ -108,14 +107,14 @@
                 {
                     "number": 18,
                     "name": "Guttas grønnløkka",
-                    "description": "kylling, bacon, avokado, soltørkede tomater, cheddar, mozzarella, parmesan, pesto rosso & chiliaiolidressing",
+                    "description": "kylling, bacon, avokado, soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
                     "price": 152,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                 },
                 {
                     "number": 19,
                     "name": "Sophies toast for kule kidz",
-                    "description": "mozzarella, cheddar & limemajonesdressing",
+                    "description": "mozzarella & cheddar",
                     "priceCategories": [
                         { "price": 71,
                           "category": "l"
@@ -133,17 +132,17 @@
             "foodItems": [
                 {
                     "name": "Chiliaiolidressing",
-                    "price": 15,
+                    "price": 12,
                     "allergens": "Egg"
                 },
                 {
                     "name": "Mangosennepdressing",
-                    "price": 15,
+                    "price": 12,
                     "allergens": "Egg, Sen og Su."
                 },
                 {
                     "name": "Limemajonesdressing",
-                    "price": 15,
+                    "price": 12,
                     "allergens": "Egg"
                 },
                 {
@@ -163,28 +162,26 @@
                 {
                     "number": 11,
                     "name": "Avokado & posjert egg",
-                    "description": "limemajonesdressing",
                     "price": 137,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 12,
                     "name": "Eggerøre & bacon",
-                    "description": "chiliaiolidressing",
                     "price": 137,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 13,
                     "name": "Avokado & posjert egg + yoghurt",
-                    "description": "Limemajonesdressing. Rørte bær & granola.",
+                    "description": "Rørte bær & granola",
                     "price": 179,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
                 {
                     "number": 14,
                     "name": "Eggerøre & bacon + yoghurt",
-                    "description": "Chiliaiolidressing. Rørte bær & granola.",
+                    "description": "Rørte bær & granola",
                     "price": 179,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
@@ -205,19 +202,19 @@
                     "name": "Liten planke (3 personer)",
                     "descriptions": [
                         {
-                            "description": "Karamellisert løk, sjampinjong, brie, tilsiter & mangosennepsdressing",
+                            "description": "Karamellisert løk, sjampinjong, brie & tilsiter",
                             "allergens": "B, Egg, Fi, Hv, Me, R, Sen og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
                         },
                         {
-                            "description": "Kylling, bacon, soltørkede tomater, cheddar, mozzarella, parmesan, pesto rosso & chiliaiolidressing",
+                            "description": "Kylling, bacon, soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
                             "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                         },
                         {
-                            "description": "Tilsiter, mozzarella, cheddar, skinke, sennep & mangosennepsdressing",
+                            "description": "Tilsiter, mozzarella, cheddar, skinke & sennep",
                             "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         },
                         {
-                            "description": "Comté, cheddar, skinke, paprika, sennep, jalapenos & chiliaiolidressing",
+                            "description": "Comté, cheddar, skinke, paprika, sennep & jalapenos",
                             "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         }
                     ]
@@ -232,7 +229,7 @@
                             "description": "+"
                         },
                         {
-                            "description": "Chevre, mozzarella, skinke, pære, valnøtter, timian, honning & limemajonesdressing",
+                            "description": "Chevre, mozzarella, skinke, pære, valnøtter, timian & honning",
                             "allergens": "Egg, Hv, Me, R og Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         }
                     ]
@@ -247,7 +244,7 @@
                             "description": "+"
                         },
                         {
-                            "description": "Taleggio, brie, blåmuggost & chiliaiolidressing",
+                            "description": "Taleggio, brie & blåmuggost",
                             "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         }
                     ]
@@ -448,7 +445,7 @@
                     "isOnEveningMenuPrint": true
                 },
                 {
-                    "name": "Mango/gulrot",
+                    "name": "Mango/eple",
                     "price": 49,
                     "isOnEveningMenuPrint": true
                 },
@@ -735,8 +732,8 @@
                     "foodCategory": "Rosévin",
                     "foodItems": [
                         {
-                            "name": "St. Antony Pinot Noir, Rheinhessen, Tyskland",
-                            "description": "Lys rosa mot lakserosa på farge, aromaer av bringebær og lyse bær. Middels fylde og fruktig munnfølelse med balansert friskhet.",
+                            "name": "Corvers-Kauter Rheingau Rosé, Tyskland",
+                            "description": "Lys lakserosa. Duft av bringebær, tranebær, jordbær og mynte. Middels fyldig og lett smak av bringebær og jordbær med behagelig syrefriskhet.",
                             "priceCategories": [
                                 {
                                     "price": 489,
@@ -784,7 +781,7 @@
             "foodItems": [
                 {
                     "name": "Himkok Oslo Mule 8\u00a0%",
-                    "description": "På tapp.",
+                    "description": "På tapp. Frisk cocktail med dype kryddertoner, komplementert av livlig ingefær og et hint av naturlig salvie. Destillert og mikset i Norge. ",
                     "priceCategories": [
                         {
                             "price": 119,
