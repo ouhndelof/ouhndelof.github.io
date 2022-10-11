@@ -153,6 +153,14 @@
                 {
                     "name": "Ekstra bacon",
                     "price": 20
+                },
+                {
+                    "name": "Ekstra avokado",
+                    "price": 15
+                },
+                {
+                    "name": "Ekstra ost",
+                    "price": 15
                 }
             ]
         },
