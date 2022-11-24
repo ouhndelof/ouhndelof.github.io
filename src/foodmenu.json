@@ -168,10 +168,10 @@
             "foodCategory": "Frokostmeny (serveres til kl. 15.00)",
             "foodItems": [
                 {
-                    "number": 147,
+                    "number": 11,
                     "name": "Avokado & posjert egg",
                     "description": "Rødløk, tomat, persille & lime",
-                    "price": 137,
+                    "price": 147,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
@@ -417,7 +417,7 @@
                     "name": "Cola",
                     "priceCategories": [
                         {
-                            "price": 45,
+                            "price": 48,
                             "category": "33 cl"
                         }
                     ],
