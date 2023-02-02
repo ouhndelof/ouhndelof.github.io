@@ -275,8 +275,7 @@
                             "category": "d"
                         }
                     ],
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Kaffe latte",
@@ -290,8 +289,7 @@
                             "category": "d"
                         }
                     ],
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Espresso",
@@ -304,8 +302,7 @@
                             "price": 37,
                             "category": "d"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Cortado",
@@ -319,8 +316,7 @@
                             "category": "d"
                         }
                     ],
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Americano",
@@ -333,25 +329,21 @@
                             "price": 39,
                             "category": "d"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Chai latte",
                     "price": 57,
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Varm sjokolade",
                     "price": 57,
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Te",
-                    "price": 39,
-                    "isOnEveningMenuPrint": true
+                    "price": 39
                 },
                 {
                     "name": "Mocca",
@@ -365,48 +357,40 @@
                             "category": "d"
                         }
                     ],
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Islatte",
                     "price": 51,
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Iskaffe",
                     "price": 51,
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Iste",
-                    "price": 45,
-                    "isOnEveningMenuPrint": true
+                    "price": 45
                 },
                 {
                     "name": "Ismocca",
                     "price": 54,
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Tillegg havre",
                     "price": 5,
-                    "allergens": "Ha",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Ha"
                 },
                 {
                     "name": "Sjokoladecookie",
                     "price": 35,
-                    "allergens": "Egg, Hv og Me. Kan inneholde spor av nøtter.",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Egg, Hv og Me. Kan inneholde spor av nøtter."
                 },
                 {
                     "name": "Dagens kake",
-                    "description": "Spør din servitør.",
-                    "isOnEveningMenuPrint": true
+                    "description": "Spør din servitør."
                 }
             ]
         },
@@ -782,6 +766,23 @@
                             "isOnEveningMenuPrint": true
                         }
                     ]
+                },
+                {
+                    "foodCategory": "Cremant",
+                    "foodItems": [
+                        {
+                            "name": "Delorme Cremant de Bourgogne Blanc de Noirs Brut, Frankrike",
+                            "description": "Kremet og litt utviklet, preg av røde bær og sitrus, hint av kjeks og mineraler, god lengde.",
+                            "priceCategories": [
+                                {
+                                    "price": 599,
+                                    "category": "flaske"
+                                }
+                            ],
+                            "allergens": "Su",
+                            "isOnEveningMenuPrint": true
+                        }
+                    ]
                 }
             ]
         },
@@ -796,120 +797,103 @@
                             "price": 119,
                             "category": "20\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Moscow Mule",
                     "description": "Vodka, sitronsaft, alkoholfri ingefærøl.",
-                    "price": 137,
-                    "isOnEveningMenuPrint": true
+                    "price": 137
                 },
                 {
                     "name": "Gin tonic",
                     "description": "Agurk, appelsin og sort pepper, gin og tonic.",
-                    "price": 143,
-                    "isOnEveningMenuPrint": true
+                    "price": 143
                 },
                 {
                     "name": "Old Fashioned",
                     "description": "Bourbon, angostura bitter, sukkerlake.",
                     "price": 137,
-                    "allergens": "Su",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Su"
                 },
                 {
                     "name": "Espresso Martini",
                     "description": "Espresso, vodka, kaffelikør.",
-                    "price": 137,
-                    "isOnEveningMenuPrint": true
+                    "price": 137
                 },
                 {
                     "name": "Whiskey Sour",
                     "description": "Whiskey, sitronsaft, sukkerlake, angostura bitter.",
                     "price": 143,
-                    "allergens": "Su",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Su"
                 },
                 {
                     "name": "Irish coffee",
                     "description": "Whiskey, espresso, sukker, kremfløte.",
                     "price": 137,
-                    "allergens": "Me",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Me"
                 },
                 {
                     "name": "Mojito",
                     "description": "Lys rom, lime, sukkerlake, mynteblader, soda.",
-                    "price": 143,
-                    "isOnEveningMenuPrint": true
+                    "price": 143
                 },
                 {
                     "name": "Aperol Spritz",
                     "description": "Aperol, prosecco, appelsin.",
                     "price": 137,
-                    "allergens": "Su",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Su"
                 },
                 {
                     "name": "Amaretto Sour",
                     "description": "Amaretto, sitronsaft, sukkerlake, angostura bitter.",
                     "price": 143,
-                    "allergens": "Su",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Su"
                 },
                 {
                     "name": "Mimosa",
                     "description": "Prosecco, appelsinjuice.",
                     "price": 109,
-                    "allergens": "Su",
-                    "isOnEveningMenuPrint": true
+                    "allergens": "Su"
                 },
                 {
                     "name": "French 75",
                     "description": "Gin, sitronsaft, sukkerlake, prosecco.",
                     "price": 143,
                     "allergens": "Su",
-                    "isNotOnDaytimeMenu": true,
-                    "isOnEveningMenuPrint": true
+                    "isNotOnDaytimeMenu": true
                 },
                 {
                     "name": "Margarita",
                     "description": "Tequila, Triple Sec, limejuice, sukkerlake.",
                     "price": 143,
-                    "isNotOnDaytimeMenu": true,
-                    "isOnEveningMenuPrint": true
+                    "isNotOnDaytimeMenu": true
                 },
                 {
                     "name": "Paloma",
                     "description": "Tequila, grapefruktjuice, limejuice, sukkerlake, sodavann.",
                     "price": 143,
-                    "isNotOnDaytimeMenu": true,
-                    "isOnEveningMenuPrint": true
+                    "isNotOnDaytimeMenu": true
                 },
                 {
                     "name": "Bloody Mary",
                     "description": "Vodka, tomatjuice, tabasko, worcestersaus, sitronsaft, salt, pepper, stangselleri.",
                     "price": 143,
                     "allergens": "B og Fi.",
-                    "isNotOnDaytimeMenu": true,
-                    "isOnEveningMenuPrint": true
+                    "isNotOnDaytimeMenu": true
                 },
                 {
                     "name": "White Russian",
                     "description": "Vodka, Kahlua, kremfløte.",
                     "price": 143,
                     "allergens": "Me",
-                    "isNotOnDaytimeMenu": true,
-                    "isOnEveningMenuPrint": true
+                    "isNotOnDaytimeMenu": true
                 },
                 {
                     "name": "Pink'elicious",
                     "description": "Cointreau, tranebærjuice, limejuice.",
                     "price": 143,
                     "allergens": "Me",
-                    "isNotOnDaytimeMenu": true,
-                    "isOnEveningMenuPrint": true
+                    "isNotOnDaytimeMenu": true
                 },
                 {
                     "name": "Absolut vodka",
@@ -918,8 +902,7 @@
                             "price": 80,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Hendricks gin",
@@ -928,8 +911,7 @@
                             "price": 95,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Whiskey Jameson",
@@ -938,8 +920,7 @@
                             "price": 80,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Bourbon Makers Mark",
@@ -948,8 +929,7 @@
                             "price": 85,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Rum Mount Gay",
@@ -958,8 +938,7 @@
                             "price": 80,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Tequila",
@@ -968,8 +947,7 @@
                             "price": 80,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Jagermeister",
@@ -978,8 +956,7 @@
                             "price": 80,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Fernet-branca",
@@ -988,8 +965,7 @@
                             "price": 90,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Kahlua",
@@ -998,8 +974,7 @@
                             "price": 69,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Havana Club",
@@ -1008,8 +983,7 @@
                             "price": 80,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Amaretto",
@@ -1018,13 +992,11 @@
                             "price": 80,
                             "category": "4\u00a0cl"
                         }
-                    ],
-                    "isOnEveningMenuPrint": true
+                    ]
                 },
                 {
                     "name": "Mineralvann tillegg",
-                    "price": 29,
-                    "isOnEveningMenuPrint": true
+                    "price": 29
                 }
             ]
         }

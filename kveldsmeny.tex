@@ -1,6 +1,7 @@
-\documentclass{article}
+\documentclass[fontsize=10pt]{scrartcl}
+\usepackage{lmodern} 
 \usepackage{luacode}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=.5in]{geometry}
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
@@ -16,7 +17,11 @@
 \usepackage{tikzpagenodes}
 \usepackage{svg}
 \usepackage{pgfpages}
-\pgfpagesuselayout{2 on 1}[a3paper,landscape]
+%\pgfpagesuselayout{2 on 1}[a3paper,landscape]
+
+\addtokomafont{disposition}{\rmfamily}
+
+\thispagestyle{empty}
 
 \sectionfont{\centering}
 \subsectionfont{\centering}
@@ -123,9 +128,6 @@
 
     function printCategories(foodCategories)
         for _, foodCategory in ipairs(foodCategories) do
-            if foodCategory.foodCategory == "Alkoholfritt øl" then
-                tex.print([[\newpage]])
-            end
             if foodCategory.foodItems then
                 if not isIncluded(foodCategory.foodItems) then goto continue end
                 tex.print([[\begin{multicols}{2}]], '[')
@@ -136,9 +138,6 @@
             end
             if foodCategory.subCategories then
                 for i, subCategory in ipairs(foodCategory.subCategories) do
-                    if subCategory.foodCategory == "Rosévin" then
-                        tex.print([[\newpage]])
-                    end
                     if not isIncluded(subCategory.foodItems) then goto continue end
                     tex.print([[\begin{multicols}{2}]], '[')
                     if i == 1 then
