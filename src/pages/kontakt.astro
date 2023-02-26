@@ -2,10 +2,15 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout client:load title='Braud toastbar'>
+<Layout title='Braud toastbar'>
     <main>
-        <div id="contact-info">
-            <b>Telefon:</b> 966&nbsp;46&nbsp;315
+        <div class="contactInfo">
+            <div>
+                <b>Telefon:</b> 966&nbsp;46&nbsp;315
+            </div>
+            <div>
+                <b>E-post:</b> <a href="mailto:post@braud.no">post@braud.no</a>
+            </div>
         </div>
         <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7997.935137794541!2d10.7589655!3d59.9241142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x60b8e680444e01d6!2sBrau%C3%B0%20toastbar!5e0!3m2!1sno!2sno!4v1615156923937!5m2!1sno!2sno" style="border:0;width:100%;height:400px" allowfullscreen=""></iframe>
@@ -17,7 +22,14 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <style>
-#contact-info {
+.contactInfo {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content;
+    row-gap: 7px;
     margin-bottom: 15px;
+}
+a {
+    color: black;
 }
 </style>
