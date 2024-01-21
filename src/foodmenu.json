@@ -404,7 +404,7 @@
                     "name": "Cola",
                     "priceCategories": [
                         {
-                            "price": 49,
+                            "price": 52,
                             "category": "33 cl"
                         }
                     ],
@@ -414,18 +414,18 @@
                     "name": "Cola uten sukker",
                     "priceCategories": [
                         {
-                            "price": 49,
+                            "price": 52,
                             "category": "33 cl"
                         }
                     ],
                     "isOnEveningMenuPrint": true
                 },
                 {
-                    "name": "Glitre (vann med kullsyre)",
+                    "name": "Olden (vann med kullsyre)",
                     "priceCategories": [
                         {
-                            "price": 49,
-                            "category": "33 cl"
+                            "price": 57,
+                            "category": "50 cl"
                         }
                     ],
                     "isOnEveningMenuPrint": true
@@ -437,27 +437,27 @@
             "foodItems": [
                 {
                     "name": "Mango/appelsin",
-                    "price": 52,
+                    "price": 54,
                     "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Mango/eple",
-                    "price": 52,
+                    "price": 54,
                     "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Lemonade",
-                    "price": 52,
+                    "price": 54,
                     "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Appelsin",
-                    "price": 52,
+                    "price": 54,
                     "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Eple",
-                    "price": 52,
+                    "price": 54,
                     "isOnEveningMenuPrint": true
                 }
             ]
@@ -491,10 +491,10 @@
             "foodCategory": "Alkoholfritt øl",
             "foodItems": [
                 {
-                    "name": "Aass UTEN",
+                    "name": "Clausthaler",
                     "priceCategories": [
                         {
-                            "price": 58,
+                            "price": 61,
                             "category": "33\u00a0cl"
                         }
                     ],
@@ -502,10 +502,10 @@
                     "isOnEveningMenuPrint": true
                 },
                 {
-                    "name": "Fentimans ingefærøl",
+                    "name": "Ingefærøl",
                     "priceCategories": [
                         {
-                            "price": 63,
+                            "price": 65,
                             "category": "275\u00a0ml"
                         }
                     ],
@@ -520,8 +520,7 @@
                     "foodCategory": "Fat/boks",
                     "foodItems": [
                         {
-                            "name": "Aass pilsner 4,7\u00a0%",
-                            "description": "Lys lager. Ølet har en frisk smak med lav sødme og tydelig bitterhet.",
+                            "name": "Fredrikstad pilsner 4,7\u00a0%",
                             "priceCategories": [
                                 {
                                     "price": 105,
@@ -536,11 +535,10 @@
                             "isOnEveningMenuPrint": true
                         },
                         {
-                            "name": "Aass Lite Vienna 4,5\u00a0%",
-                            "description": "Gyllen lager. Glutenfritt øl med 30\u00a0% færre kalorier og 70\u00a0% færre karbohydrater.",
+                            "name": "Hansa Lite boks 4,3\u00a0%",
                             "priceCategories": [
                                 {
-                                    "price": 119,
+                                    "price": 124,
                                     "category": "50\u00a0cl"
                                 }
                             ],
@@ -548,7 +546,6 @@
                         },
                         {
                             "name": "Pitcher Braud 4,7\u00a0%",
-                            "description": "Aass pilsner. Lys lager. Ølet har en frisk smak med lav sødme og tydelig bitterhet.",
                             "priceCategories": [
                                 {
                                     "price": 396,
@@ -556,6 +553,17 @@
                                 }
                             ],
                             "allergens": "B",
+                            "isOnEveningMenuPrint": true
+                        },
+                        {
+                            "name": "Weihenstephaner Hefeweissbier 5,4\u00a0%",
+                            "priceCategories": [
+                                {
+                                    "price": 149,
+                                    "category": "50\u00a0cl"
+                                }
+                            ],
+                            "allergens": "Hv",
                             "isOnEveningMenuPrint": true
                         }
                     ]
@@ -565,7 +573,6 @@
                     "foodItems": [
                         {
                             "name": "Hverdags-IPA 4,7\u00a0%",
-                            "description": "Tørrhumlet med citra som gir smak og aroma av sitrus, grapefrukt og tropisk frukt.",
                             "priceCategories": [
                                 {
                                     "price": 113,
@@ -576,8 +583,7 @@
                             "isOnEveningMenuPrint": true
                         },
                         {
-                            "name": "Founders All Day IPA 4,7\u00a0%",
-                            "description": "Klar lys kobberfarge, med smak av gress, tropiske frukter, grapefrukt og sitrus.",
+                            "name": "BrewDog Punk IPA 5,4\u00a0%",
                             "priceCategories": [
                                 {
                                     "price": 123,
@@ -588,20 +594,7 @@
                             "isOnEveningMenuPrint": true
                         },
                         {
-                            "name": "Erdinger Weissbier Hefe 5,3\u00a0%",
-                            "description": "Verdens mest solgte hveteøl, fruktige toner av sitrus, banan, nellik og krydder.",
-                            "priceCategories": [
-                                {
-                                    "price": 113,
-                                    "category": "33\u00a0cl"
-                                }
-                            ],
-                            "allergens": "B og Hv.",
-                            "isOnEveningMenuPrint": true
-                        },
-                        {
-                            "name": "Ginger Beer 4,2\u00a0%",
-                            "description": "Produsert med ferskpresset juice av ingefær og sitron.",
+                            "name": "Nøgne Ø ingefærøl 4,6\u00a0%",
                             "priceCategories": [
                                 {
                                     "price": 109,
@@ -619,7 +612,17 @@
             "foodItems": [
                 {
                     "name": "Bulmers Original 4,5\u00a0%",
-                    "description": "Fruktig balansert. Frisk og eksotisk smak.",
+                    "priceCategories": [
+                        {
+                            "price": 139,
+                            "category": "50\u00a0cl"
+                        }
+                    ],
+                    "allergens": "Su",
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Bulmers Apple & Elderflower 4,5\u00a0%",
                     "priceCategories": [
                         {
                             "price": 139,
@@ -638,8 +641,7 @@
                     "foodCategory": "Hvitvin",
                     "foodItems": [
                         {
-                            "name": "Husets hvite, Molino A Vento, økologisk, Italia",
-                            "description": "Strågul på farge med nyanser av grønnskskjær, sitrus og gule epler på nesen. Velbalansert med frisk munnfølelse.",
+                            "name": "Husets hvite, Casa dei Reti Soave, Italia",
                             "priceCategories": [
                                 {
                                     "price": 539,
@@ -669,8 +671,7 @@
                     "foodCategory": "Rødvin",
                     "foodItems": [
                         {
-                            "name": "Husets røde, Molino A Vento, Italia",
-                            "description": "Mørk rød på farge, aromaer av skogsbær og kryddertoner. Fin fyldighet og bløt tanninstruktur.",
+                            "name": "Husets røde, Casa dei Reti Valpolicella, Italia",
                             "priceCategories": [
                                 {
                                     "price": 539,
@@ -700,8 +701,7 @@
                     "foodCategory": "Rosévin",
                     "foodItems": [
                         {
-                            "name": "Born Rosé Barcelona, Spania",
-                            "description": "Fruktig og tropisk smak med en søt og balansert munnfølelse. Duft av grapefrukt, appelsin, pasjonsfrukt og mango med hint av anis.",
+                            "name": "Petit Boucan Rosé, Frankrike",
                             "priceCategories": [
                                 {
                                     "price": 610,
@@ -725,8 +725,7 @@
                     "foodCategory": "Musserende",
                     "foodItems": [
                         {
-                            "name": "Serenello DOC, Italia",
-                            "description": "Lys strågul med grønnskjær på farge, gule epler og hvite blomster på nesen. Livlig og behagelige bobler.",
+                            "name": "Villa Bordeaux Crémant Brut, Frankrike",
                             "priceCategories": [
                                 {
                                     "price": 549,
@@ -741,8 +740,7 @@
                             "isOnEveningMenuPrint": true
                         },
                         {
-                            "name": "Delorme Cremant de Bourgogne Blanc de Noirs Brut, Frankrike",
-                            "description": "Kremet og litt utviklet, preg av røde bær og sitrus, hint av kjeks og mineraler, god lengde.",
+                            "name": "Cartemisia Prosecco, Italia",
                             "priceCategories": [
                                 {
                                     "price": 610,
@@ -759,16 +757,6 @@
         {
             "foodCategory": "Drinker",
             "foodItems": [
-                {
-                    "name": "Himkok Oslo Mule 8\u00a0%",
-                    "description": "På tapp. Frisk cocktail med dype kryddertoner, komplementert av livlig ingefær og et hint av naturlig salvie. Destillert og mikset i Norge. ",
-                    "priceCategories": [
-                        {
-                            "price": 124,
-                            "category": "20\u00a0cl"
-                        }
-                    ]
-                },
                 {
                     "name": "Moscow Mule",
                     "description": "Vodka, lime, ingefærøl.",
