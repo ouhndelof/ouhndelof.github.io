@@ -525,7 +525,7 @@
             "foodCategory": "Øl",
             "subCategories": [
                 {
-                    "foodCategory": "Fat/boks",
+                    "foodCategory": "Fat",
                     "foodItems": [
                         {
                             "name": "Fredrikstad pilsner 4,7\u00a0%",
@@ -540,17 +540,6 @@
                                 }
                             ],
                             "allergens": "B",
-                            "isOnEveningMenuPrint": true
-                        },
-                        {
-                            "name": "Hansa Lite 4,3\u00a0%",
-                            "description": "Glutenfri. På boks.",
-                            "priceCategories": [
-                                {
-                                    "price": 124,
-                                    "category": "50\u00a0cl"
-                                }
-                            ],
                             "isOnEveningMenuPrint": true
                         },
                         {
@@ -578,8 +567,19 @@
                     ]
                 },
                 {
-                    "foodCategory": "Flaske",
+                    "foodCategory": "Flaske/boks",
                     "foodItems": [
+                        {
+                            "name": "Hansa Lite 4,3\u00a0%",
+                            "description": "Glutenfri.",
+                            "priceCategories": [
+                                {
+                                    "price": 124,
+                                    "category": "50\u00a0cl"
+                                }
+                            ],
+                            "isOnEveningMenuPrint": true
+                        },
                         {
                             "name": "Hverdags-IPA 4,7\u00a0%",
                             "priceCategories": [
@@ -713,7 +713,7 @@
                     "foodItems": [
                         {
                             "name": "Petit Boucan Rosé, Frankrike",
-                            "description": "Druene plukkes om natten og kaldmasereres i 15 dager. En lys rosa farge med smak av jordbær, morell og fersken.",
+                            "description": "Lys rosa farge. Smak av jordbær, morell og fersken.",
                             "priceCategories": [
                                 {
                                     "price": 610,
@@ -743,10 +743,6 @@
                                 {
                                     "price": 597,
                                     "category": "flaske"
-                                },
-                                {
-                                    "price": 112,
-                                    "category": "glass"
                                 }
                             ],
                             "allergens": "Su",
@@ -759,6 +755,10 @@
                                 {
                                     "price": 597,
                                     "category": "flaske"
+                                },
+                                {
+                                    "price": 112,
+                                    "category": "glass"
                                 }
                             ],
                             "allergens": "Su",
