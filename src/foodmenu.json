@@ -9,14 +9,14 @@
                     "number": 1,
                     "name": "Karamellisert løk & sjampinjong",
                     "description": "brie & tilsiter",
-                    "price": 141,
+                    "price": 143,
                     "allergens": "B, Egg, Fi, Hv, Me, R, Sen og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 16,
                     "name": "Hummus, soltørkede tomater & oliven (vegansk)",
                     "description": "jalapenos & ristede solsikkefrø",
-                    "price": 141,
+                    "price": 143,
                     "allergens": "Hv, R, Ses og Su. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, Me, nøtter, Sel, Sen og Sp."
                 }
             ]
@@ -42,7 +42,7 @@
                     "number": 5,
                     "name": "Kylling & bacon",
                     "description": "soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
-                    "price": 158,
+                    "price": 161,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -51,13 +51,13 @@
                     "number": 6,
                     "name": "Tilsiter, mozzarella & cheddar",
                     "description": "skinke & sennep",
-                    "price": 153,
+                    "price": 154,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 7,
                     "name": "Taleggio, blåmuggost & brie",
-                    "price": 158,
+                    "price": 159,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -67,7 +67,7 @@
                     "number": 8,
                     "name": "Comté, cheddar & skinke",
                     "description": "paprika, sennep & jalapenos",
-                    "price": 156,
+                    "price": 157,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -77,7 +77,7 @@
                     "number": 9,
                     "name": "Chevre, mozzarella & skinke",
                     "description": "pære, valnøtter, timian & honning",
-                    "price": 156,
+                    "price": 157,
                     "allergens": "Egg, Hv, Me, R og Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
@@ -85,10 +85,10 @@
                     "name": "Oscars toast for kule kidz",
                     "description": "mozzarella, cheddar & skinke",
                     "priceCategories": [
-                        { "price": 86,
+                        { "price": 87,
                           "category": "l"
                         },
-                        { "price": 118,
+                        { "price": 119,
                           "category": "s"
                         }
                     ],
@@ -98,7 +98,7 @@
                     "number": 17,
                     "name": "Pulled pork, taleggio & barbecuesaus",
                     "description": "cheddar, mozzarella & syltet rødløk",
-                    "price": 168,
+                    "price": 169,
                     "allergens": "Hv, Me, R, Sel og Sen. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -108,7 +108,7 @@
                     "number": 18,
                     "name": "Guttas grønnløkka",
                     "description": "kylling, bacon, avokado, soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
-                    "price": 168,
+                    "price": 169,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                 },
                 {
@@ -116,10 +116,10 @@
                     "name": "Sophies toast for kule kidz",
                     "description": "mozzarella & cheddar",
                     "priceCategories": [
-                        { "price": 81,
+                        { "price": 83,
                           "category": "l"
                         },
-                        { "price": 113,
+                        { "price": 116,
                           "category": "s"
                         }
                     ],
@@ -179,13 +179,13 @@
                     "number": 11,
                     "name": "Avokado & posjert egg",
                     "description": "Rødløk, tomat, persille & lime",
-                    "price": 158,
+                    "price": 159,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 12,
                     "name": "Eggerøre & bacon",
-                    "price": 158,
+                    "price": 159,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
@@ -220,7 +220,7 @@
         },
         {
             "foodCategory": "Toastplanke",
-            "description": "162,- per person (serveres 16.00–18.00)",
+            "description": "163,- per person (serveres 16.00–18.00)",
             "foodItems": [
                 {
                     "name": "Liten planke (3 personer)",
@@ -471,6 +471,21 @@
             ]
         },
         {
+            "foodCategory": "Økologisk",
+            "foodItems": [
+                {
+                    "name": "Hylleblomstbrus",
+                    "price": 58,
+                    "category": "27,5 cl"
+                },
+                {
+                    "name": "Rabarbrabrus",
+                    "price": 58,
+                    "category": "27,5 cl"
+                }
+            ]
+        },
+        {
             "foodCategory": "Snacks",
             "foodItems": [
                 {
@@ -629,17 +644,6 @@
                     ],
                     "allergens": "Su",
                     "isOnEveningMenuPrint": true
-                },
-                {
-                    "name": "Bulmers Apple & Elderflower 4,5\u00a0%",
-                    "priceCategories": [
-                        {
-                            "price": 139,
-                            "category": "50\u00a0cl"
-                        }
-                    ],
-                    "allergens": "Su",
-                    "isOnEveningMenuPrint": true
                 }
             ]
         },
@@ -650,8 +654,8 @@
                     "foodCategory": "Hvitvin",
                     "foodItems": [
                         {
-                            "name": "Husets hvite, Casa dei Reti Soave, Italia",
-                            "description": "Middels tørr og frisk med smak av eple, pære og aprikos.",
+                            "name": "Husets hvite, Patriarche Héritage blanc, Frankrike",
+                            "description": "Gulgrønn farge med gylne nyanser. Frisk og fruktig med floral aroma og hint av grapefrukt.",
                             "priceCategories": [
                                 {
                                     "price": 539,
@@ -681,8 +685,8 @@
                     "foodCategory": "Rødvin",
                     "foodItems": [
                         {
-                            "name": "Husets røde, Casa dei Reti Valpolicella, Italia",
-                            "description": "Lett og fruktig med duft av mandler og kirsebær. Intens og frisk ettersmak.",
+                            "name": "Husets røde, Patriarche Héritage rouge, Frankrike",
+                            "description": "Rubinrød, smak av friske røde bær med en fruktig avslutning.",
                             "priceCategories": [
                                 {
                                     "price": 539,
@@ -701,8 +705,14 @@
                             "isOnEveningMenuPrint": true
                         },
                         {
-                            "name": "Månedens vin",
-                            "description": "Flaske. Spør din servitør.",
+                            "name": "Three Finger Jack Old Vine Zinfandel, California",
+                            "description": "Rik duft preget av mørk rød frukt, hint av krydder og vanilje. Fyldig smak av modne bjørnebær, plomme, lær og sedertre.",
+                            "priceCategories": [
+                                {
+                                    "price": 709,
+                                    "category": "flaske"
+                                }
+                            ],
                             "allergens": "Su",
                             "isOnEveningMenuPrint": true
                         }
@@ -749,8 +759,8 @@
                             "isOnEveningMenuPrint": true
                         },
                         {
-                            "name": "Cartemisia Prosecco, Italia",
-                            "description": "Strågul vin. Fruktig med preg av eple, sitrus og grapefrukt. Rik smak av fersk frukt. Velbalansert syrenivå med en tørr avslutning.",
+                            "name": "Mionetto Prosecco Brut, Italia",
+                            "description": "Gul plommefarget vin. Fruktig med et preg av eple, sitrus og grapefrukt. Rik smak av frisk frukt. Velbalansert syrenivå med en tørr avslutning.",
                             "priceCategories": [
                                 {
                                     "price": 597,
