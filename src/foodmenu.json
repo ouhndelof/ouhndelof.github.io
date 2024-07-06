@@ -28,14 +28,14 @@
                     "number": 3,
                     "name": "Tunfiskrøre, tomat & cheddar",
                     "description": "vårløk, dill, majones, lime & oliven",
-                    "price": 163,
+                    "price": 166,
                     "allergens": "Egg, Fi, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 4,
                     "name": "Kylling & comté",
                     "description": "skinke, mozzarella, tomat & majonessennep",
-                    "price": 156,
+                    "price": 158,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
@@ -124,6 +124,13 @@
                         }
                     ],
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                },
+                {
+                    "number": 21,
+                    "name": "Knut Anders",
+                    "description": "desserttoast Nutella, blåbær, banan og jordbær",
+                    "price": 109,
+                    "allergens": "Hn, Hv, Me, R, Soy. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 }
             ]
         },
@@ -476,12 +483,14 @@
                 {
                     "name": "Hylleblomstbrus",
                     "price": 58,
-                    "category": "27,5 cl"
+                    "category": "27,5 cl",
+                    "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Rabarbrabrus",
                     "price": 58,
-                    "category": "27,5 cl"
+                    "category": "27,5 cl",
+                    "isOnEveningMenuPrint": true
                 }
             ]
         },
@@ -537,97 +546,92 @@
             ]
         },
         {
-            "foodCategory": "Øl",
-            "subCategories": [
+            "foodCategory": "Øl  på fat",
+            "foodItems": [
                 {
-                    "foodCategory": "Fat",
-                    "foodItems": [
+                    "name": "Fredrikstad pilsner 4,7\u00a0%",
+                    "priceCategories": [
                         {
-                            "name": "Fredrikstad pilsner 4,7\u00a0%",
-                            "priceCategories": [
-                                {
-                                    "price": 105,
-                                    "category": "50\u00a0cl"
-                                },
-                                {
-                                    "price": 59,
-                                    "category": "25\u00a0cl"
-                                }
-                            ],
-                            "allergens": "B",
-                            "isOnEveningMenuPrint": true
+                            "price": 105,
+                            "category": "50\u00a0cl"
                         },
                         {
-                            "name": "Pitcher Braud 4,7\u00a0%",
-                            "priceCategories": [
-                                {
-                                    "price": 396,
-                                    "category": "2\u00a0l"
-                                }
-                            ],
-                            "allergens": "B",
-                            "isOnEveningMenuPrint": true
-                        },
-                        {
-                            "name": "Weihenstephaner Hefeweissbier 5,4\u00a0%",
-                            "priceCategories": [
-                                {
-                                    "price": 149,
-                                    "category": "50\u00a0cl"
-                                }
-                            ],
-                            "allergens": "Hv",
-                            "isOnEveningMenuPrint": true
+                            "price": 59,
+                            "category": "25\u00a0cl"
                         }
-                    ]
+                    ],
+                    "allergens": "B",
+                    "isOnEveningMenuPrint": true
                 },
                 {
-                    "foodCategory": "Flaske/boks",
-                    "foodItems": [
+                    "name": "Pitcher Braud 4,7\u00a0%",
+                    "priceCategories": [
                         {
-                            "name": "Hansa Lite 4,3\u00a0%",
-                            "description": "Glutenfri.",
-                            "priceCategories": [
-                                {
-                                    "price": 124,
-                                    "category": "50\u00a0cl"
-                                }
-                            ],
-                            "isOnEveningMenuPrint": true
-                        },
-                        {
-                            "name": "Hverdags-IPA 4,7\u00a0%",
-                            "priceCategories": [
-                                {
-                                    "price": 123,
-                                    "category": "33\u00a0cl"
-                                }
-                            ],
-                            "allergens": "B, Ha og Hv.",
-                            "isOnEveningMenuPrint": true
-                        },
-                        {
-                            "name": "BrewDog Punk IPA 5,4\u00a0%",
-                            "priceCategories": [
-                                {
-                                    "price": 127,
-                                    "category": "33\u00a0cl"
-                                }
-                            ],
-                            "allergens": "B, Ha og Hv.",
-                            "isOnEveningMenuPrint": true
-                        },
-                        {
-                            "name": "Nøgne Ø ingefærøl 4,6\u00a0%",
-                            "priceCategories": [
-                                {
-                                    "price": 109,
-                                    "category": "33\u00a0cl"
-                                }
-                            ],
-                            "isOnEveningMenuPrint": true
+                            "price": 396,
+                            "category": "2\u00a0l"
                         }
-                    ]
+                    ],
+                    "allergens": "B",
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Weihenstephaner Hefeweissbier 5,4\u00a0%",
+                    "priceCategories": [
+                        {
+                            "price": 149,
+                            "category": "50\u00a0cl"
+                        }
+                    ],
+                    "allergens": "Hv",
+                    "isOnEveningMenuPrint": true
+                }
+            ]
+        },
+        {
+            "foodCategory": "Øl på flaske/boks",
+            "foodItems": [
+                {
+                    "name": "Hansa Lite 4,3\u00a0%",
+                    "description": "Glutenfri.",
+                    "priceCategories": [
+                        {
+                            "price": 124,
+                            "category": "50\u00a0cl"
+                        }
+                    ],
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Hverdags-IPA 4,7\u00a0%",
+                    "priceCategories": [
+                        {
+                            "price": 123,
+                            "category": "33\u00a0cl"
+                        }
+                    ],
+                    "allergens": "B, Ha og Hv.",
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "BrewDog Punk IPA 5,4\u00a0%",
+                    "priceCategories": [
+                        {
+                            "price": 127,
+                            "category": "33\u00a0cl"
+                        }
+                    ],
+                    "allergens": "B, Ha og Hv.",
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Nøgne Ø ingefærøl 4,6\u00a0%",
+                    "priceCategories": [
+                        {
+                            "price": 109,
+                            "category": "33\u00a0cl"
+                        }
+                    ],
+                    "isOnEveningMenuPrint": true
                 }
             ]
         },
@@ -648,133 +652,128 @@
             ]
         },
         {
-            "foodCategory": "Vin",
-            "subCategories": [
+            "foodCategory": "Hvitvin",
+            "foodItems": [
                 {
-                    "foodCategory": "Hvitvin",
-                    "foodItems": [
+                    "name": "Husets hvite, Patriarche Héritage blanc, Frankrike",
+                    "description": "Gulgrønn farge med gylne nyanser. Frisk og fruktig med floral aroma og hint av grapefrukt.",
+                    "priceCategories": [
                         {
-                            "name": "Husets hvite, Patriarche Héritage blanc, Frankrike",
-                            "description": "Gulgrønn farge med gylne nyanser. Frisk og fruktig med floral aroma og hint av grapefrukt.",
-                            "priceCategories": [
-                                {
-                                    "price": 539,
-                                    "category": "flaske"
-                                },
-                                {
-                                    "price": 108,
-                                    "category": "glass"
-                                },
-                                {
-                                    "price": 208,
-                                    "category": "dobbel"
-                                }
-                            ],
-                            "allergens": "Su",
-                            "isOnEveningMenuPrint": true
+                            "price": 539,
+                            "category": "flaske"
                         },
                         {
-                            "name": "Månedens vin",
-                            "description": "Flaske. Spør din servitør.",
-                            "allergens": "Su",
-                            "isOnEveningMenuPrint": true
-                        }
-                    ]
-                },
-                {
-                    "foodCategory": "Rødvin",
-                    "foodItems": [
-                        {
-                            "name": "Husets røde, Patriarche Héritage rouge, Frankrike",
-                            "description": "Rubinrød, smak av friske røde bær med en fruktig avslutning.",
-                            "priceCategories": [
-                                {
-                                    "price": 539,
-                                    "category": "flaske"
-                                },
-                                {
-                                    "price": 108,
-                                    "category": "glass"
-                                },
-                                {
-                                    "price": 208,
-                                    "category": "dobbel"
-                                }
-                            ],
-                            "allergens": "Su",
-                            "isOnEveningMenuPrint": true
+                            "price": 108,
+                            "category": "glass"
                         },
                         {
-                            "name": "Three Finger Jack Old Vine Zinfandel, California",
-                            "description": "Rik duft preget av mørk rød frukt, hint av krydder og vanilje. Fyldig smak av modne bjørnebær, plomme, lær og sedertre.",
-                            "priceCategories": [
-                                {
-                                    "price": 709,
-                                    "category": "flaske"
-                                }
-                            ],
-                            "allergens": "Su",
-                            "isOnEveningMenuPrint": true
+                            "price": 208,
+                            "category": "dobbel"
                         }
-                    ]
+                    ],
+                    "allergens": "Su",
+                    "isOnEveningMenuPrint": true
                 },
                 {
-                    "foodCategory": "Rosévin",
-                    "foodItems": [
-                        {
-                            "name": "Petit Boucan Rosé, Frankrike",
-                            "description": "Lys rosa farge. Smak av jordbær, morell og fersken.",
-                            "priceCategories": [
-                                {
-                                    "price": 610,
-                                    "category": "flaske"
-                                },
-                                {
-                                    "price": 122,
-                                    "category": "glass"
-                                },
-                                {
-                                    "price": 236,
-                                    "category": "dobbel"
-                                }
-                            ],
-                            "allergens": "Su",
-                            "isOnEveningMenuPrint": true
-                        }
-                    ]
-                },
+                    "name": "Månedens vin",
+                    "description": "Flaske. Spør din servitør.",
+                    "allergens": "Su",
+                    "isOnEveningMenuPrint": true
+                }
+            ]
+        },
+        {
+            "foodCategory": "Rødvin",
+            "foodItems": [
                 {
-                    "foodCategory": "Musserende",
-                    "foodItems": [
+                    "name": "Husets røde, Patriarche Héritage rouge, Frankrike",
+                    "description": "Rubinrød, smak av friske røde bær med en fruktig avslutning.",
+                    "priceCategories": [
                         {
-                            "name": "Villa Bordeaux Crémant Brut, Frankrike",
-                            "description": "Sitrus, grønne epler og et svakt hint av brioche. Slank med friskt fruktpreg.",
-                            "priceCategories": [
-                                {
-                                    "price": 597,
-                                    "category": "flaske"
-                                }
-                            ],
-                            "allergens": "Su",
-                            "isOnEveningMenuPrint": true
+                            "price": 539,
+                            "category": "flaske"
                         },
                         {
-                            "name": "Mionetto Prosecco Brut, Italia",
-                            "description": "Gul plommefarget vin. Fruktig med et preg av eple, sitrus og grapefrukt. Rik smak av frisk frukt. Velbalansert syrenivå med en tørr avslutning.",
-                            "priceCategories": [
-                                {
-                                    "price": 597,
-                                    "category": "flaske"
-                                },
-                                {
-                                    "price": 112,
-                                    "category": "glass"
-                                }
-                            ],
-                            "allergens": "Su",
-                            "isOnEveningMenuPrint": true
+                            "price": 108,
+                            "category": "glass"
+                        },
+                        {
+                            "price": 208,
+                            "category": "dobbel"
                         }
-                    ]
+                    ],
+                    "allergens": "Su",
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Three Finger Jack Old Vine Zinfandel, California",
+                    "description": "Rik duft preget av mørk rød frukt, hint av krydder og vanilje. Fyldig smak av modne bjørnebær, plomme, lær og sedertre.",
+                    "priceCategories": [
+                        {
+                            "price": 709,
+                            "category": "flaske"
+                        }
+                    ],
+                    "allergens": "Su",
+                    "isOnEveningMenuPrint": true
+                }
+            ]
+        },
+        {
+            "foodCategory": "Rosévin",
+            "foodItems": [
+                {
+                    "name": "Petit Boucan Rosé, Frankrike",
+                    "description": "Lys rosa farge. Smak av jordbær, morell og fersken.",
+                    "priceCategories": [
+                        {
+                            "price": 610,
+                            "category": "flaske"
+                        },
+                        {
+                            "price": 122,
+                            "category": "glass"
+                        },
+                        {
+                            "price": 236,
+                            "category": "dobbel"
+                        }
+                    ],
+                    "allergens": "Su",
+                    "isOnEveningMenuPrint": true
+                }
+            ]
+        },
+        {
+            "foodCategory": "Musserende",
+            "foodItems": [
+                {
+                    "name": "Villa Bordeaux Crémant Brut, Frankrike",
+                    "description": "Sitrus, grønne epler og et svakt hint av brioche. Slank med friskt fruktpreg.",
+                    "priceCategories": [
+                        {
+                            "price": 617,
+                            "category": "flaske"
+                        }
+                    ],
+                    "allergens": "Su",
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Mionetto Prosecco Brut, Italia",
+                    "description": "Gul plommefarget vin. Fruktig med et preg av eple, sitrus og grapefrukt. Rik smak av frisk frukt. Velbalansert syrenivå med en tørr avslutning.",
+                    "priceCategories": [
+                        {
+                            "price": 597,
+                            "category": "flaske"
+                        },
+                        {
+                            "price": 112,
+                            "category": "glass"
+                        }
+                    ],
+                    "allergens": "Su",
+                    "isOnEveningMenuPrint": true
                 }
             ]
         },
