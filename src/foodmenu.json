@@ -61,7 +61,6 @@
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
-
                 },
                 {
                     "number": 8,
@@ -71,7 +70,6 @@
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
-
                 },
                 {
                     "number": 9,
@@ -85,11 +83,13 @@
                     "name": "Oscars toast for kule kidz",
                     "description": "mozzarella, cheddar & skinke",
                     "priceCategories": [
-                        { "price": 87,
-                          "category": "l"
+                        {
+                            "price": 87,
+                            "category": "l"
                         },
-                        { "price": 119,
-                          "category": "s"
+                        {
+                            "price": 119,
+                            "category": "s"
                         }
                     ],
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
@@ -102,7 +102,6 @@
                     "allergens": "Hv, Me, R, Sel og Sen. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
-
                 },
                 {
                     "number": 18,
@@ -116,11 +115,13 @@
                     "name": "Sophies toast for kule kidz",
                     "description": "mozzarella & cheddar",
                     "priceCategories": [
-                        { "price": 83,
-                          "category": "l"
+                        {
+                            "price": 83,
+                            "category": "l"
                         },
-                        { "price": 116,
-                          "category": "s"
+                        {
+                            "price": 116,
+                            "category": "s"
                         }
                     ],
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
@@ -655,19 +656,19 @@
             "foodCategory": "Hvitvin",
             "foodItems": [
                 {
-                    "name": "Husets hvite, Patriarche Héritage blanc, Frankrike",
-                    "description": "Gulgrønn farge med gylne nyanser. Frisk og fruktig med floral aroma og hint av grapefrukt.",
+                    "name": "Husets hvite, Antiche Terre Soave, Veneto, Italia",
+                    "description": "Aroma av pære, eple og sitrus med innslag av mineralitet. Smaken er bløt og med en fin syrlighet i ettersmaken.",
                     "priceCategories": [
                         {
-                            "price": 539,
+                            "price": 559,
                             "category": "flaske"
                         },
                         {
-                            "price": 108,
+                            "price": 113,
                             "category": "glass"
                         },
                         {
-                            "price": 208,
+                            "price": 220,
                             "category": "dobbel"
                         }
                     ],
@@ -675,8 +676,14 @@
                     "isOnEveningMenuPrint": true
                 },
                 {
-                    "name": "Månedens vin",
-                    "description": "Flaske. Spør din servitør.",
+                    "name": "Noble Vines 446 Chardonnay, California",
+                    "description": "100\u00a0% Chardonnay. Manuell innhøsting av druene. Aroma av modne gule epler og aprikoser.",
+                    "priceCategories": [
+                        {
+                            "price": 779,
+                            "category": "flaske"
+                        }
+                    ],
                     "allergens": "Su",
                     "isOnEveningMenuPrint": true
                 }
@@ -686,19 +693,19 @@
             "foodCategory": "Rødvin",
             "foodItems": [
                 {
-                    "name": "Husets røde, Patriarche Héritage rouge, Frankrike",
-                    "description": "Rubinrød, smak av friske røde bær med en fruktig avslutning.",
+                    "name": "Husets røde, Antiche Terre Valpolicella, Veneto, Italia",
+                    "description": "Ung, frisk og saftig, preg av kirsebær og moreller, litt grønn urt og hint av mineraler. Balansert, saftig, myke tanniner.",
                     "priceCategories": [
                         {
-                            "price": 539,
+                            "price": 559,
                             "category": "flaske"
                         },
                         {
-                            "price": 108,
+                            "price": 113,
                             "category": "glass"
                         },
                         {
-                            "price": 208,
+                            "price": 220,
                             "category": "dobbel"
                         }
                     ],
@@ -706,11 +713,11 @@
                     "isOnEveningMenuPrint": true
                 },
                 {
-                    "name": "Three Finger Jack Old Vine Zinfandel, California",
-                    "description": "Rik duft preget av mørk rød frukt, hint av krydder og vanilje. Fyldig smak av modne bjørnebær, plomme, lær og sedertre.",
+                    "name": "Noble Vines 667 Pinot Noir, California",
+                    "description": "100\u00a0% Pinot Noir. Innhøsting for hånd. Vinen lagres på franske og amerikanske eikefat i opptil 8 måneder. Aroma av mørke kirsebær, varm jord og et hint av vanilje. Smak av kirsebær, bittersøt kakao og litt urter (salvie). Myke tanniner og balansert syre.",
                     "priceCategories": [
                         {
-                            "price": 709,
+                            "price": 697,
                             "category": "flaske"
                         }
                     ],
