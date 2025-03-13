@@ -665,7 +665,7 @@
             "foodItems": [
                 {
                     "name": "Husets hvite, Antiche Terre Soave, Veneto, Italia",
-                    "description": "Aroma av pære, eple og sitrus med innslag av mineralitet. Smaken er bløt og med en fin syrlighet i ettersmaken.",
+                    "description": "Aroma av pære, eple og sitrus med innslag av mineralitet. Fin syrlighet i ettersmaken.",
                     "priceCategories": [
                         {
                             "price": 559,
@@ -685,7 +685,7 @@
                 },
                 {
                     "name": "Noble Vines 446 Chardonnay, California",
-                    "description": "100\u00a0% Chardonnay. Manuell innhøsting av druene. Aroma av modne gule epler og aprikoser.",
+                    "description": "100\u00a0% Chardonnay. Aroma av modne gule epler og aprikoser.",
                     "priceCategories": [
                         {
                             "price": 779,
@@ -722,7 +722,7 @@
                 },
                 {
                     "name": "Noble Vines 667 Pinot Noir, California",
-                    "description": "100\u00a0% Pinot Noir. Innhøsting for hånd. Vinen lagres på franske og amerikanske eikefat i opptil 8 måneder. Aroma av mørke kirsebær, varm jord og et hint av vanilje. Smak av kirsebær, bittersøt kakao og litt urter (salvie). Myke tanniner og balansert syre.",
+                    "description": "100\u00a0% Pinot Noir. Lagres på eikefat i opptil 8 måneder. Aroma av mørke kirsebær, varm jord, et hint av vanilje og bittersøt kakao og litt urter (salvie). Myke tanniner og balansert syre.",
                     "priceCategories": [
                         {
                             "price": 697,
@@ -831,6 +831,12 @@
                     "allergens": "Me"
                 },
                 {
+                    "name": "Bloody Mary",
+                    "description": "Vodka, tomatjuice, tabasko, worcestersaus, sitronsaft, salt, pepper, stangselleri.",
+                    "price": 143,
+                    "allergens": "B og Fi."
+                },
+                {
                     "name": "Andre drinker",
                     "description": "Spør din servitør."
                 }
@@ -860,6 +866,12 @@
                 {
                     "name": "Love mimosa",
                     "description": "Prosecco, Grenadine & tranebærjuice",
+                    "price": 125,
+                    "allergens": "Su"
+                },
+                {
+                    "name": "Bluemosa",
+                    "description": "Prosecco & curacaosirup",
                     "price": 125,
                     "allergens": "Su"
                 }
