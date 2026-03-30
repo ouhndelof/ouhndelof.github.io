@@ -9,14 +9,14 @@
                     "number": 1,
                     "name": "Karamellisert løk & sjampinjong",
                     "description": "brie, mozzarella & parmesan",
-                    "price": 147,
+                    "price": 149,
                     "allergens": "B, Egg, Fi, Hv, Me, R, Sen og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 16,
                     "name": "Hummus, soltørkede tomater & oliven (vegansk)",
                     "description": "jalapenos & ristede solsikkefrø",
-                    "price": 147,
+                    "price": 149,
                     "allergens": "Hv, R, Ses og Su. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, Me, nøtter, Sel, Sen og Sp."
                 }
             ]
@@ -28,21 +28,21 @@
                     "number": 3,
                     "name": "Tunfiskrøre, tomat & cheddar",
                     "description": "vårløk, dill, majones, lime & oliven",
-                    "price": 172,
+                    "price": 175,
                     "allergens": "Egg, Fi, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 4,
                     "name": "Kylling & comté",
                     "description": "skinke, mozzarella, tomat & majonessennep",
-                    "price": 163,
+                    "price": 166,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 5,
                     "name": "Kylling & bacon",
                     "description": "soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
-                    "price": 167,
+                    "price": 170,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -51,13 +51,13 @@
                     "number": 6,
                     "name": "Mortadella, tomat & Buffalo Mozzarella (kan fås som vegetar)",
                     "description": "grønn pesto & basilikum",
-                    "price": 173,
+                    "price": 177,
                     "allergens": "Egg, Hv, Me (bøffelmelk), R, nøtter (cashew). Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                 },
                 {
                     "number": 7,
                     "name": "Taleggio, blåmuggost & brie",
-                    "price": 163,
+                    "price": 166,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -66,7 +66,7 @@
                     "number": 8,
                     "name": "Comté, cheddar & skinke",
                     "description": "paprika, sennep & jalapenos",
-                    "price": 163,
+                    "price": 166,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
@@ -75,7 +75,7 @@
                     "number": 9,
                     "name": "Chevre, mozzarella & skinke",
                     "description": "pære, valnøtter, timian & honning",
-                    "price": 162,
+                    "price": 165,
                     "allergens": "Egg, Hv, Me, R og Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
@@ -84,11 +84,11 @@
                     "description": "mozzarella, cheddar & skinke",
                     "priceCategories": [
                         {
-                            "price": 89,
+                            "price": 91,
                             "category": "l"
                         },
                         {
-                            "price": 122,
+                            "price": 124,
                             "category": "s"
                         }
                     ],
@@ -98,8 +98,8 @@
                     "number": 17,
                     "name": "Pulled pork, taleggio & barbecuesaus",
                     "description": "cheddar, mozzarella & syltet rødløk",
-                    "price": 173,
-                    "allergens": "Hv, Me, R, Sel og Sen. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
+                    "price": 179,
+                    "allergens": "B, egg, Fi, Hv, Me, R, Sel, Sen, Soy og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
                 },
@@ -107,7 +107,7 @@
                     "number": 18,
                     "name": "Guttas grønnløkka",
                     "description": "kylling, bacon, avokado, soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
-                    "price": 177,
+                    "price": 179,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                 },
                 {
@@ -116,11 +116,11 @@
                     "description": "mozzarella & cheddar",
                     "priceCategories": [
                         {
-                            "price": 85,
+                            "price": 87,
                             "category": "l"
                         },
                         {
-                            "price": 119,
+                            "price": 121,
                             "category": "s"
                         }
                     ],
@@ -130,7 +130,7 @@
                     "number": 21,
                     "name": "Knut Anders",
                     "description": "desserttoast Nutella, blåbær, banan og jordbær",
-                    "price": 112,
+                    "price": 119,
                     "allergens": "Hn, Hv, Me, R, Soy. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 }
             ]
@@ -138,6 +138,11 @@
         {
             "foodCategory": "Dressing/ekstra",
             "foodItems": [
+                {
+                    "name": "BBQ-saus",
+                    "price": 15,
+                    "allergens": "B, egg, Fi, Sen, Soy, Su. Kan inneholde spor av Ha, Hv, R, Sel."
+                },
                 {
                     "name": "Chiliaiolidressing",
                     "price": 15,
@@ -187,51 +192,51 @@
                     "number": 11,
                     "name": "Avokado & posjert egg",
                     "description": "Rødløk, tomat, persille & lime",
-                    "price": 163,
+                    "price": 166,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 12,
                     "name": "Eggerøre & bacon",
-                    "price": 163,
+                    "price": 166,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 13,
                     "name": "Avokado & posjert egg + yoghurt",
                     "description": "Rødløk, tomat, persille & lime. Rørte bær & granola",
-                    "price": 202,
+                    "price": 207,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
                 {
                     "number": 14,
                     "name": "Eggerøre & bacon + yoghurt",
                     "description": "Rørte bær & granola",
-                    "price": 202,
+                    "price": 207,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
                 {
                     "number": 15,
                     "name": "Yoghurt med rørte bær og granola",
                     "description": "Velg mellom jordbær & eple.",
-                    "price": 67,
+                    "price": 69,
                     "allergens": "B, Ha, Hv og Me. Kan inneholde spor av nøtter, Pen, Ses og Soy."
                 },
                 {
                     "number": 20,
                     "name": "Frankies spesial",
                     "description": "Avokado, bacon, to posjerte egg, rødløk, tomat, persille & lime",
-                    "price": 193,
+                    "price": 197,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 }
             ]
         },
         {
-            "foodCategory": "Toastplanke",
-            "description": "167,- per person (serveres 16.00–18.00, minimum 3 personer)",
+            "foodCategory": "Toastplanke (serveres 16.00–18.00)",
             "foodItems": [
                 {
-                    "name": "Liten planke (3 personer)",
+                    "name": "Liten planke",
+                    "price": 507,
                     "descriptions": [
                         {
                             "description": "Karamellisert løk, sjampinjong, brie, mozzarella & parmesan",
@@ -242,8 +247,8 @@
                             "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                         },
                         {
-                            "description": "Mortadella, tomat, Buffalo Mozzarella, grønn pesto & basilikum (kan fås som vegetar)",
-                            "allergens": "Egg, Hv, Me (bøffelmelk), R, nøtter (cashew). Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
+                            "description": "Oscars toast for kule kidz: mozzarella, cheddar & skinke",
+                            "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         },
                         {
                             "description": "Comté, cheddar, skinke, paprika, sennep & jalapenos",
@@ -252,7 +257,8 @@
                     ]
                 },
                 {
-                    "name": "Medium planke (4 personer)",
+                    "name": "Medium planke",
+                    "price": 676,
                     "descriptions": [
                         {
                             "description": "Liten planke"
@@ -267,7 +273,8 @@
                     ]
                 },
                 {
-                    "name": "Stor planke (5 personer)",
+                    "name": "Stor planke",
+                    "price": 845,
                     "descriptions": [
                         {
                             "description": "Medium planke"
@@ -290,11 +297,11 @@
                     "name": "Cappuccino",
                     "priceCategories": [
                         {
-                            "price": 52,
+                            "price": 53,
                             "category": "e"
                         },
                         {
-                            "price": 58,
+                            "price": 59,
                             "category": "d"
                         }
                     ],
@@ -304,11 +311,11 @@
                     "name": "Kaffe latte",
                     "priceCategories": [
                         {
-                            "price": 52,
+                            "price": 53,
                             "category": "e"
                         },
                         {
-                            "price": 58,
+                            "price": 59,
                             "category": "d"
                         }
                     ],
@@ -318,11 +325,11 @@
                     "name": "Espresso",
                     "priceCategories": [
                         {
-                            "price": 39,
+                            "price": 40,
                             "category": "e"
                         },
                         {
-                            "price": 45,
+                            "price": 46,
                             "category": "d"
                         }
                     ]
@@ -331,11 +338,11 @@
                     "name": "Cortado",
                     "priceCategories": [
                         {
-                            "price": 50,
+                            "price": 51,
                             "category": "e"
                         },
                         {
-                            "price": 55,
+                            "price": 56,
                             "category": "d"
                         }
                     ],
@@ -345,42 +352,42 @@
                     "name": "Americano",
                     "priceCategories": [
                         {
-                            "price": 44,
+                            "price": 45,
                             "category": "e"
                         },
                         {
-                            "price": 48,
+                            "price": 49,
                             "category": "d"
                         }
                     ]
                 },
                 {
                     "name": "Espresso tonic",
-                    "price": 72
+                    "price": 73
                 },
                 {
                     "name": "Chai latte",
-                    "price": 65,
+                    "price": 66,
                     "allergens": "Me"
                 },
                 {
                     "name": "Varm sjokolade",
-                    "price": 65,
+                    "price": 66,
                     "allergens": "Me"
                 },
                 {
                     "name": "Te",
-                    "price": 45
+                    "price": 46
                 },
                 {
                     "name": "Mocca",
                     "priceCategories": [
                         {
-                            "price": 58,
+                            "price": 59,
                             "category": "e"
                         },
                         {
-                            "price": 62,
+                            "price": 63,
                             "category": "d"
                         }
                     ],
@@ -388,12 +395,12 @@
                 },
                 {
                     "name": "Islatte",
-                    "price": 59,
+                    "price": 60,
                     "allergens": "Me"
                 },
                 {
                     "name": "Ismocca",
-                    "price": 62,
+                    "price": 63,
                     "allergens": "Me"
                 },
                 {
@@ -432,7 +439,7 @@
                     "name": "Cola",
                     "priceCategories": [
                         {
-                            "price": 56,
+                            "price": 57,
                             "category": "33 cl"
                         }
                     ],
@@ -442,7 +449,7 @@
                     "name": "Cola uten sukker",
                     "priceCategories": [
                         {
-                            "price": 56,
+                            "price": 57,
                             "category": "33 cl"
                         }
                     ],
@@ -452,7 +459,7 @@
                     "name": "Olden (vann med kullsyre)",
                     "priceCategories": [
                         {
-                            "price": 58,
+                            "price": 59,
                             "category": "50 cl"
                         }
                     ],
@@ -465,52 +472,27 @@
             "foodItems": [
                 {
                     "name": "Mango/appelsin",
-                    "price": 58,
+                    "price": 59,
                     "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Mango/eple",
-                    "price": 58,
+                    "price": 59,
                     "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Lemonade",
-                    "price": 58,
+                    "price": 59,
                     "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Appelsin",
-                    "price": 58,
+                    "price": 59,
                     "isOnEveningMenuPrint": true
                 },
                 {
                     "name": "Eple",
-                    "price": 58,
-                    "isOnEveningMenuPrint": true
-                }
-            ]
-        },
-        {
-            "foodCategory": "Snacks",
-            "foodItems": [
-                {
-                    "name": "Peanøtter",
-                    "price": 29,
-                    "allergens": "Pen. Kan inneholde spor av andre nøtter.",
-                    "isNotOnDaytimeMenu": true,
-                    "isOnEveningMenuPrint": true
-                },
-                {
-                    "name": "Peanøtter med chilikrydder",
-                    "price": 29,
-                    "allergens": "Gluten og Pen. Kan inneholde spor av andre nøtter.",
-                    "isNotOnDaytimeMenu": true,
-                    "isOnEveningMenuPrint": true
-                },
-                {
-                    "name": "Grønne/svarte oliven",
-                    "price": 29,
-                    "isNotOnDaytimeMenu": true,
+                    "price": 59,
                     "isOnEveningMenuPrint": true
                 }
             ]
@@ -522,7 +504,7 @@
                     "name": "Clausthaler",
                     "priceCategories": [
                         {
-                            "price": 61,
+                            "price": 63,
                             "category": "33\u00a0cl"
                         }
                     ],
@@ -548,7 +530,7 @@
                     "name": "Fredrikstad pilsner 4,7\u00a0%",
                     "priceCategories": [
                         {
-                            "price": 92,
+                            "price": 94,
                             "category": "40\u00a0cl"
                         },
                         {
@@ -571,14 +553,14 @@
                     "isOnEveningMenuPrint": true
                 },
                 {
-                    "name": "Weihenstephaner Hefeweissbier 5,4\u00a0%",
+                    "name": "Nøgne Ø 4885 Blanc",
                     "priceCategories": [
                         {
-                            "price": 149,
-                            "category": "50\u00a0cl"
+                            "price": 124,
+                            "category": "40\u00a0cl"
                         }
                     ],
-                    "allergens": "Hv",
+                    "allergens": "B, Hv",
                     "isOnEveningMenuPrint": true
                 }
             ]
@@ -598,10 +580,10 @@
                     "isOnEveningMenuPrint": true
                 },
                 {
-                    "name": "Hverdags-IPA 4,7\u00a0%",
+                    "name": "Nøgne Ø Asian Pale Ale 4,5\u00a0%",
                     "priceCategories": [
                         {
-                            "price": 123,
+                            "price": 119,
                             "category": "33\u00a0cl"
                         }
                     ],
@@ -612,7 +594,7 @@
                     "name": "BrewDog Punk IPA 5,4\u00a0%",
                     "priceCategories": [
                         {
-                            "price": 129,
+                            "price": 139,
                             "category": "33\u00a0cl"
                         }
                     ],
@@ -623,10 +605,31 @@
                     "name": "Nøgne Ø ingefærøl 4,6\u00a0%",
                     "priceCategories": [
                         {
-                            "price": 113,
+                            "price": 115,
                             "category": "33\u00a0cl"
                         }
                     ],
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Nøgne Ø Brown Ale 4,5\u00a0%",
+                    "priceCategories": [
+                        {
+                            "price": 119,
+                            "category": "33\u00a0cl"
+                        }
+                    ],
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Weihenstephaner Hefeweissbier 5,4\u00a0%",
+                    "priceCategories": [
+                        {
+                            "price": 153,
+                            "category": "50\u00a0cl"
+                        }
+                    ],
+                    "allergens": "Hv",
                     "isOnEveningMenuPrint": true
                 }
             ]
@@ -651,19 +654,19 @@
             "foodCategory": "Hvitvin",
             "foodItems": [
                 {
-                    "name": "Husets hvite, Antiche Terre Soave, Veneto, Italia",
-                    "description": "Aroma av pære, eple og sitrus med innslag av mineralitet. Fin syrlighet i ettersmaken.",
+                    "name": "Husets hvite, Barramundi Chardonnay Viognier, Australia",
+                    "description": "Lys gyllen. Frisk aroma av eple, krydder og nøtter.",
                     "priceCategories": [
                         {
-                            "price": 579,
+                            "price": 589,
                             "category": "flaske"
                         },
                         {
-                            "price": 119,
+                            "price": 121,
                             "category": "glass"
                         },
                         {
-                            "price": 228,
+                            "price": 235,
                             "category": "dobbel"
                         }
                     ],
@@ -692,15 +695,15 @@
                     "description": "Ung, frisk og saftig, preg av kirsebær og moreller, litt grønn urt og hint av mineraler. Balansert, saftig, myke tanniner.",
                     "priceCategories": [
                         {
-                            "price": 579,
+                            "price": 589,
                             "category": "flaske"
                         },
                         {
-                            "price": 119,
+                            "price": 121,
                             "category": "glass"
                         },
                         {
-                            "price": 228,
+                            "price": 235,
                             "category": "dobbel"
                         }
                     ],
@@ -725,8 +728,8 @@
             "foodCategory": "Rosévin",
             "foodItems": [
                 {
-                    "name": "Petit Boucan Rosé, Frankrike",
-                    "description": "Lys rosa farge. Smak av jordbær, morell og fersken.",
+                    "name": "Villa Wolf Pinot Noir, Tyskland",
+                    "description": "Lys rosa farge. Flott friskhet. Bærpreget fruktighet.",
                     "priceCategories": [
                         {
                             "price": 610,
@@ -754,7 +757,7 @@
                     "description": "Sitrus, grønne epler og et svakt hint av brioche. Slank med friskt fruktpreg.",
                     "priceCategories": [
                         {
-                            "price": 659,
+                            "price": 669,
                             "category": "flaske"
                         }
                     ],
@@ -785,42 +788,18 @@
                 {
                     "name": "Moscow Mule",
                     "description": "Vodka, lime, ingefærøl.",
-                    "price": 146
-                },
-                {
-                    "name": "Whiskey Sour",
-                    "description": "Bourbon, sitron, sukker, Angostura bitters.",
-                    "price": 154,
-                    "allergens": "Su"
-                },
-                {
-                    "name": "Amaretto Sour",
-                    "description": "Amaretto, sitron, sukker, Angostura bitters.",
-                    "price": 154,
-                    "allergens": "Su"
+                    "price": 153
                 },
                 {
                     "name": "Aperol Spritz",
                     "description": "Aperol, prosecco, soda, appelsin.",
-                    "price": 144,
+                    "price": 153,
                     "allergens": "Su"
-                },
-                {
-                    "name": "French 75",
-                    "description": "Gin, sitronsaft, sukkerlake, prosecco.",
-                    "price": 159,
-                    "allergens": "Su"
-                },
-                {
-                    "name": "Pink'elicious",
-                    "description": "Cointreau, tranebærjuice, limejuice.",
-                    "price": 159,
-                    "allergens": "Me"
                 },
                 {
                     "name": "Bloody Mary",
                     "description": "Vodka, tomatjuice, tabasko, worcestersaus, sitronsaft, salt, pepper, stangselleri.",
-                    "price": 143,
+                    "price": 153,
                     "allergens": "B og Fi."
                 },
                 {
@@ -835,32 +814,59 @@
                 {
                     "name": "Klassisk mimosa",
                     "description": "Prosecco & appelsinjuice",
-                    "price": 125,
+                    "price": 129,
                     "allergens": "Su"
                 },
                 {
                     "name": "Jorbær-mimosa",
                     "description": "Prosecco & jordbær",
-                    "price": 125,
+                    "price": 129,
                     "allergens": "Su"
                 },
                 {
                     "name": "Aperol mimosa",
                     "description": "Prosecco, appelsinjuice & Aperol",
-                    "price": 125,
+                    "price": 129,
                     "allergens": "Su"
                 },
                 {
                     "name": "Love mimosa",
                     "description": "Prosecco, Grenadine & tranebærjuice",
-                    "price": 125,
+                    "price": 129,
                     "allergens": "Su"
+                }
+            ]
+        },
+        {
+            "foodCategory": "Snacks",
+            "foodItems": [
+                {
+                    "name": "Chilinøtter",
+                    "price": 39,
+                    "allergens": "Gluten og Pen. Kan inneholde spor av andre nøtter.",
+                    "isOnEveningMenuPrint": true
                 },
                 {
-                    "name": "Bluemosa",
-                    "description": "Prosecco & Blue Curaçao",
-                    "price": 125,
-                    "allergens": "Su"
+                    "name": "Peanøtter",
+                    "price": 39,
+                    "allergens": "Pen. Kan inneholde spor av andre nøtter.",
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Cashewnøtter",
+                    "price": 47,
+                    "allergens": "Cashewnøtt. Kan inneholde spor av andre nøtter.",
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Oliven",
+                    "price": 39,
+                    "isOnEveningMenuPrint": true
+                },
+                {
+                    "name": "Potetgull",
+                    "price": 43,
+                    "isOnEveningMenuPrint": true
                 }
             ]
         }
