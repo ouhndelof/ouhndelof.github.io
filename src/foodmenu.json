@@ -10,7 +10,7 @@
                     "name": "Karamellisert løk & sjampinjong",
                     "description": "brie, mozzarella & parmesan",
                     "price": 149,
-                    "allergens": "B, Egg, Fi, Hv, Me, R, Sen og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
+                    "allergens": "B, Fi, Hv, Me og R. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 16,
@@ -28,22 +28,22 @@
                     "number": 3,
                     "name": "Tunfiskrøre, tomat & cheddar",
                     "description": "vårløk, dill, majones, lime & oliven",
-                    "price": 175,
+                    "price": 177,
                     "allergens": "Egg, Fi, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 4,
                     "name": "Kylling & comté",
                     "description": "skinke, mozzarella, tomat & majonessennep",
-                    "price": 166,
+                    "price": 167,
                     "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 5,
                     "name": "Kylling & bacon",
                     "description": "soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
-                    "price": 170,
-                    "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp.",
+                    "price": 172,
+                    "allergens": "Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
                 },
@@ -51,14 +51,14 @@
                     "number": 6,
                     "name": "Mortadella, tomat & Buffalo Mozzarella (kan fås som vegetar)",
                     "description": "grønn pesto & basilikum",
-                    "price": 177,
-                    "allergens": "Egg, Hv, Me (bøffelmelk), R, nøtter (cashew). Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
+                    "price": 178,
+                    "allergens": "Hv, Me (bøffelmelk), R, nøtter (cashew). Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                 },
                 {
                     "number": 7,
                     "name": "Taleggio, blåmuggost & brie",
-                    "price": 166,
-                    "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
+                    "price": 167,
+                    "allergens": "Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
                 },
@@ -66,8 +66,8 @@
                     "number": 8,
                     "name": "Comté, cheddar & skinke",
                     "description": "paprika, sennep & jalapenos",
-                    "price": 166,
-                    "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
+                    "price": 167,
+                    "allergens": "Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
                 },
@@ -75,8 +75,8 @@
                     "number": 9,
                     "name": "Chevre, mozzarella & skinke",
                     "description": "pære, valnøtter, timian & honning",
-                    "price": 165,
-                    "allergens": "Egg, Hv, Me, R og Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                    "price": 167,
+                    "allergens": "Hv, Me, R og Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 10,
@@ -92,14 +92,14 @@
                             "category": "s"
                         }
                     ],
-                    "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                    "allergens": "Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 17,
                     "name": "Pulled pork, taleggio & barbecuesaus",
                     "description": "cheddar, mozzarella & syltet rødløk",
                     "price": 179,
-                    "allergens": "B, egg, Fi, Hv, Me, R, Sel, Sen, Soy og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp.",
+                    "allergens": "B, Fi, Hv, Me, R, Sel, Sen, Soy og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp.",
                     "isOnEveningMenuWeb": true,
                     "isOnEveningMenuPrint": true
                 },
@@ -107,7 +107,7 @@
                     "number": 18,
                     "name": "Guttas grønnløkka",
                     "description": "kylling, bacon, avokado, soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
-                    "price": 179,
+                    "price": 181,
                     "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                 },
                 {
@@ -124,7 +124,7 @@
                             "category": "s"
                         }
                     ],
-                    "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                    "allergens": "Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 21,
@@ -132,6 +132,13 @@
                     "description": "desserttoast Nutella, blåbær, banan og jordbær",
                     "price": 119,
                     "allergens": "Hn, Hv, Me, R, Soy. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                },
+                {
+                    "number": 22,
+                    "name": "Søster",
+                    "description": "Taleggio, blåmuggost, brie, kylling, valnøtter, timian & honning",
+                    "price": 172,
+                    "allergens": "Hv, Me, R, Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 }
             ]
         },
@@ -141,7 +148,7 @@
                 {
                     "name": "BBQ-saus",
                     "price": 15,
-                    "allergens": "B, egg, Fi, Sen, Soy, Su. Kan inneholde spor av Ha, Hv, R, Sel."
+                    "allergens": "B, Fi, Sen, Soy, Su. Kan inneholde spor av Ha, Hv, R, Sel."
                 },
                 {
                     "name": "Chiliaiolidressing",
@@ -192,27 +199,27 @@
                     "number": 11,
                     "name": "Avokado & posjert egg",
                     "description": "Rødløk, tomat, persille & lime",
-                    "price": 166,
+                    "price": 167,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 12,
                     "name": "Eggerøre & bacon",
-                    "price": 166,
+                    "price": 167,
                     "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                 },
                 {
                     "number": 13,
                     "name": "Avokado & posjert egg + yoghurt",
                     "description": "Rødløk, tomat, persille & lime. Rørte bær & granola",
-                    "price": 207,
+                    "price": 208,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
                 {
                     "number": 14,
                     "name": "Eggerøre & bacon + yoghurt",
                     "description": "Rørte bær & granola",
-                    "price": 207,
+                    "price": 208,
                     "allergens": "B, Egg, Ha, Hv, Me og R. Kan inneholde spor av B, Ka, nøtter, Pen, Ses, Soy og Sp."
                 },
                 {
@@ -240,19 +247,19 @@
                     "descriptions": [
                         {
                             "description": "Karamellisert løk, sjampinjong, brie, mozzarella & parmesan",
-                            "allergens": "B, Egg, Fi, Hv, Me, R, Sen og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
+                            "allergens": "B, Fi, Hv, Me, R, Sen og Su. Kan inneholde spor av Ha, Ka, nøtter, Ses og Sp."
                         },
                         {
                             "description": "Kylling, bacon, soltørkede tomater, cheddar, mozzarella, parmesan & pesto rosso",
-                            "allergens": "Egg, Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
+                            "allergens": "Hv, M, Me og R. Kan inneholde spor av B, Blø, Fi, Ha, Ka, Ska, nøtter, Pen, Sel, Sen, Ses og Sp."
                         },
                         {
                             "description": "Oscars toast for kule kidz: mozzarella, cheddar & skinke",
-                            "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                            "allergens": "Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         },
                         {
                             "description": "Comté, cheddar, skinke, paprika, sennep & jalapenos",
-                            "allergens": "Egg, Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                            "allergens": "Hv, Me, R, Sen og Su. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         }
                     ]
                 },
@@ -268,7 +275,7 @@
                         },
                         {
                             "description": "Chevre, mozzarella, skinke, pære, valnøtter, timian & honning",
-                            "allergens": "Egg, Hv, Me, R og Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                            "allergens": "Hv, Me, R og Vn. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         }
                     ]
                 },
@@ -284,7 +291,7 @@
                         },
                         {
                             "description": "Taleggio, brie & blåmuggost",
-                            "allergens": "Egg, Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
+                            "allergens": "Hv, Me og R. Kan inneholde spor av B, Ha, Ka, nøtter, Ses og Sp."
                         }
                     ]
                 }
@@ -530,7 +537,7 @@
                     "name": "Fredrikstad pilsner 4,7\u00a0%",
                     "priceCategories": [
                         {
-                            "price": 94,
+                            "price": 97,
                             "category": "40\u00a0cl"
                         },
                         {
@@ -545,7 +552,7 @@
                     "name": "Pitcher Braud 4,7\u00a0%",
                     "priceCategories": [
                         {
-                            "price": 396,
+                            "price": 398,
                             "category": "2\u00a0l"
                         }
                     ],
@@ -605,7 +612,7 @@
                     "name": "Nøgne Ø ingefærøl 4,6\u00a0%",
                     "priceCategories": [
                         {
-                            "price": 115,
+                            "price": 119,
                             "category": "33\u00a0cl"
                         }
                     ],
@@ -625,7 +632,7 @@
                     "name": "Weihenstephaner Hefeweissbier 5,4\u00a0%",
                     "priceCategories": [
                         {
-                            "price": 153,
+                            "price": 157,
                             "category": "50\u00a0cl"
                         }
                     ],
